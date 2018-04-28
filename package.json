@@ -13,7 +13,9 @@
   "devDependencies": {
     "lite-server": "^2.3.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://joanclarke@bitbucket.org/joanclarke/power-in-the-word-website.git"
