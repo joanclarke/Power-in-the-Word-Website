@@ -12,6 +12,11 @@ body {
    	font-family: "Open Sans Condensed", sans-serif;
   	font-family: "Quicksand", sans-serif;
   	font-weight:300;
+
+  	/*
+  	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Roboto', sans-serif;
+  	*/
 }
 /*
 .navbar{
@@ -84,59 +89,60 @@ margin-top: 20px;
 	font-size: 400px !important;
 }
 
-/* Position the "next button" to the right */
-
-/*
-.carousel-control-next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-*/
-/* On hover, add a black background color with a little bit see-through */
-
-/*
-.carousel-control-prev:hover, .carousel-control-next:hover {
-  background-color: rgba(0,0,0,0.8);
-
-}
-
-*/
-
-.carousel-caption p{
-  font-size: 100px;
-	font-weight: 700;
-  margin-bottom: 80px;
-  width: 100%;
-  text-align: center;
-  margin-top: -100px; 
- text-shadow: 0 5px 2px rgba(0, 0, 0, 0.5);
- color: purple;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-
-
-/* Caption text */
 .carousel-caption .prayer{
-  font-size: 35px;
-  color: white;
-  width: 60%;
-  text-align: center;
-  margin:auto; 
-  margin-bottom: 80px;
- font-family: 'Carrois Gothic SC', sans-serif;
- background-color: rgba(0, 0, 0, 0.4);
-  padding-top: 20px;
-  padding-bottom: 10px;
+	font-weight: 700;
+  	text-align: center;
+ 	text-shadow: 0 5px 2px rgba(0, 0, 0, 0.5);
+	font-size: 35px;
+	color: white;
+	width: 60%;
+  	margin:auto; 
+  	margin-top: 60px;
+  	margin-bottom: 20px;
+ 	font-family: 'Carrois Gothic SC', sans-serif;
+ 	background-color: rgba(0, 0, 0, 0.4);
+  	padding-top: 20px;
+  	padding-bottom: 10px;
 }
-
 .carousel-caption .prayer span {
 	font-size: 100px;
 	font-weight: 700;
 }
 
+.carousel-caption .small {
+text-shadow: none;
+color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 300;
+margin-bottom: 30px !important;
+}
+
+
+
+.carousel-caption .praising{
+  font-size: 60px;
+  color: black;
+  width: 80%;
+  text-align: center;
+  margin:auto; 
+  margin-bottom: 100px;
+ font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+ background-color: rgba(255, 255, 255, 0.3);
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-shadow: none;
+  border-radius: 50%;
+}
+
+.carousel-caption .praising span{
+	font-size: 80px;
+	color: purple;
+	font-family: 'Dancing Script', cursive;
+		font-family: 'Old Standard TT', serif;
+		font-family: 'Great Vibes', cursive;
+}
 
 .carousel{
 	position: relative;
@@ -147,7 +153,6 @@ margin-top: 20px;
 
 .carousel .carousel-item {
   height: 400px;
-
 }
 
 .carousel-item img {
@@ -193,20 +198,258 @@ ol.carousel-indicators li:hover {
 }
 
 
-/* On smaller screens, decrease text size */
+
+.welcome p{
+		font-family: 'Dancing Script', cursive;
+		font-family: 'Old Standard TT', serif;
+		font-family: 'Great Vibes', cursive;
+		text-decoration: none;
+		color: black;
+		margin: auto;
+		margin-top: 35px;
+		margin-bottom: 15px;
+		font-size: 40px;
+		font-weight: 700;
+	}
+
+.welcome_1 {
+	margin-left: 70px;
+}
+
+.welcome_1 h3 {
+	font-size: 80px;
+	padding-top: 110px;
+	padding-bottom: 20px;
+	margin-left: 50px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+.welcome_1 p{
+	font-size: 22px;
+	margin-right: -80px;
+}
+
+.welcome_1 img {
+	margin-left: 40px;
+}
+
+.greet {
+	padding-bottom: 30px;
+}
+
+.mission {
+	background-color: rgb(128,0,128);
+}
+
+.section_head {
+	color: white;
+	font-weight: 400;
+	font-size: 35px;
+	padding-top: 12px;
+	padding-left: 35px;
+}
+
+.mission_statement {
+	padding: 30px 0 30px 0;
+	background: url('../img/mission.jpeg') 50% 0 no-repeat;
+ 	background-size: cover;
+}
+
+.mission_statement p{
+	font-size: 28px;
+}
+
+.first {
+	padding-left: 100px;
+	font-weight: 400;
+}
+
+.second {
+	padding-left: 370px;
+	color: rgb(220,20,220);
+	font-weight: 400;
+}
+
+.third {
+	padding-left: 680px;
+	color: rgb(220,252,250);
+	font-weight: 400;
+}
+
+
+.mission_vision {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.mission_statement_para{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-size: 20px;
+	line-height: 32px;
+}
+
+.mission_statement_para img{
+	margin-right: 30px;
+	width:350px; 
+	height:auto;
+}
+
+.mission_statement_para p {
+	padding-bottom: 25px;
+}
+.mission_statement_para .btn {
+	color: rgb(128,128,128);
+	border:1px solid rgb(192,192,192);
+	border-radius:1px;
+	padding: 15px;
+	box-shadow: 5px 5px 3px #aaaaaa;
+}
+
+.mission_statement_para .btn:hover {
+	color: rgb(105,105,105)
+}
+
+/*-----VISION-----*/
+
+.vision {
+	margin-top: 50px;
+	background-color: rgb(88,55,89);
+}
+
+.vision_background{
+	padding: 30px 0 30px 0;
+	background: url('../img/vision.jpg') 50% 0 no-repeat;
+ 	background-size: cover;
+}
+
+.vision_background ul{
+	float: right;
+	background-color: rgba(255,255,255,0.6);
+	padding:30px 30px 30px 40px;
+}
+.bible_quote {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	padding: 120px 130px 120px 130px;
+	/*background-position: 50% 90px;*/
+}
+
+.bible_quote p{
+  	font-weight: 100;
+	font-size: 34px;	
+}
+
+.bible_quote p span {
+	font-size: 15px;	
+}
+
+/*************************
+
+		MEDIA SCREENS 
+
+*************************/
+
+
+@media only screen and (max-width: 1024px) {
+	.nav-item {
+		font-size: 14px;
+		margin-left: 0px;
+	}
+.welcome_1 h3 {
+	margin-left: 20px;
+}
+	.welcome_1 img {
+	margin-top: 140px;
+	margin-left: 60px;
+	}
+
+	.first {
+		padding-left: 70px;
+	}
+	.second {
+		padding-left: 320px;
+	}
+	.third {
+		
+		padding-left: 580px;
+		
+	}	
+
+}
+
 
 @media only screen and (max-width: 830px) {
 	.nav-item {
 		font-size: 14px;
 		margin-left: 0px;
 	}
+
+	.welcome_1 h3{
+		margin-top: -40px;
+		padding-left: 100px;
+	}
+
+
+	.welcome_1 p{
+		margin-left: -35px;
+		font-size: 18px;
+	}
+
+	.welcome_1 img {
+	margin-top: 200px;
+	margin-left: 60px;
+	}
+
+	.carousel-caption .praising{
+  font-size: 50px;
+  	width: 100%;
+  
+  margin-bottom: 90px;
+ 
+  
+  padding-bottom: 10px;
+  border-radius: 50%;
+}
+
+.carousel-caption .praising span{
+	font-size: 80px;
+}
+
+
+
+	.first {
+		padding-left: 50px;
+	}
+	.second {
+		padding-left: 220px;
+	}
+	.third {
+		
+		padding-left: 320px;
+	}	
+
+	.bible_quote {
+	padding: 120px 90px 120px 90px;
+	/*background-position: 50% 90px;*/
+	}
 }
 
 @media only screen and (max-width: 768px) {
 
+	.carousel-caption .praising{
+		font-size: 45px;
+	}
+
+	.bible_quote {
+	padding: 120px 70px 120px 70px;
+	/*background-position: 50% 90px;*/
+	}
+	
 }
-
-
 
 @media only screen and (max-width: 670px) {
 	.hidden_large_screen {
@@ -250,49 +493,91 @@ ol.carousel-indicators li:hover {
 		font-weight: 700;
 		font-size: 40px;
 	}
-}
 
-
-.welcome p{
-		font-family: 'Dancing Script', cursive;
-		font-family: 'Old Standard TT', serif;
-		font-family: 'Great Vibes', cursive;
-		text-decoration: none;
-		color: black;
-		margin: auto;
-		margin-top: 35px;
-		margin-bottom: 15px;
-		font-size: 40px;
-		font-weight: 700;
+	.welcome_1 h3 {
+	margin-left: 20px;
+	font-size: 50px;
 	}
 
-.welcome_1 {
-	margin-left: 70px;
+	.carousel-caption .praising{
+		font-size: 35px;
+	}
+
+	.first, .second, .third {
+		padding-left: 0px;
+		text-align: center;
+	}	
 }
 
-.welcome_1 h3 {
-	font-size: 80px;
-	padding-top: 110px;
-	padding-bottom: 20px;
-	margin-left: 50px;
-	text-align: center;
-	font-family: 'Open Sans', sans-serif;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-}
-
-.welcome_1 p{
-	font-size: 22px;
-	margin-right: -80px;
-}
-
-.welcome_1 img {
-	margin-left: 40px;
-}
 
 @media only screen and (max-width: 568px) {
-  .prev, .next,.text {font-size: 11px}
+  .welcome p{
+
+  	text-align: center;
+  }
+
+
+	.welcome_1 h3 {
+	margin-left: -160px;
+	}
+	.welcome_1 p{
+	margin-left: -60px;
+	margin-right: 10px;
+	}
+	.welcome_1 img {
+	margin-top: 20px;
+	margin-left: -70px;
+	}
+
+	.mission_statement_para img{
+	width:330px; 
+	height:auto;
+	padding-bottom: 20px;
+	}
+
+	.mission_statement_para p {
+		padding-bottom: 10px;
+	}
+
+	.mission_statement_para .btn {
+		width: 330px;
+		overflow-wrap: break-word;
+		font-size: 12px;
+		padding-left: 5px;
+	}
+
+	.carousel-caption .praising{
+	font-size: 25px;
+	}
 	
-
-
 }
+
+@media only screen and (max-width: 375px) {
+ .carousel-caption .praising{
+	font-size: 20px;
+	margin-bottom: 160px;
+	}
+
+
+	.mission_statement_para img{
+	width:280px; 
+	}
+
+	.mission_statement_para .btn {
+		width: 280px;
+		font-size: 10px;
+	}
+
+
+	.carousel-caption .praising span{
+		font-size: 40px;
+	}
+
+	.bible_quote {
+	padding: 50px 30px 50px 30px;
+	/*background-position: 50% 90px;*/
+	}
+	.bible_quote p {
+		font-size: 20px
+	}
+ }
