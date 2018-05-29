@@ -70,6 +70,21 @@ margin-top: 20px;
 	display: none;
 }
 
+form.search_form button{
+	border:solid 1px rgb(128,0,128);
+	background:rgb(128,0,128);
+}
+
+form.search_form button:hover{
+	border:solid 1px rgb(255, 255, 255);
+	/*background:rgba(128,0,128, 0.6);*/
+}
+
+form.search_form button .fa {
+	color: rgb(255,255,255);
+}
+
+
 /* Next & previous buttons */
 
 .carousel-control-prev, .carousel-control-next{
@@ -86,66 +101,108 @@ margin-top: 20px;
 }
 
 .carousel-control-next-icon, .carousel-control-next-icon{
-
 	font-size: 400px !important;
 }
-
+/*
 .carousel-caption .prayer{
 	font-weight: 700;
   	text-align: center;
- 	text-shadow: 0 5px 2px rgba(0, 0, 0, 0.5);
-	font-size: 35px;
+ 	/*text-shadow: 0 5px 2px rgba(0, 0, 0, 0.5);*/
+	/*font-size: 35px;
 	color: white;
 	width: 60%;
   	margin:auto; 
   	margin-top: 60px;
   	margin-bottom: 20px;
- 	font-family: 'Carrois Gothic SC', sans-serif;
- 	background-color: rgba(0, 0, 0, 0.4);
-  	padding-top: 20px;
+ 	font-family: 'Carrois Gothic SC', sans-serif;*/
+ 	/*background-color: rgba(0, 0, 0, 0.4);*/
+  	/*padding-top: 20px;
   	padding-bottom: 10px;
 }
+*/
 .carousel-caption .prayer span {
 	font-size: 100px;
-	font-weight: 700;
-}
-
-.carousel-caption .small {
-text-shadow: none;
-color: rgb(255, 255, 255);
-font-size: 18px;
-font-weight: 300;
-margin-bottom: 30px !important;
+	
 }
 
 
-
-.carousel-caption .praising{
-  font-size: 60px;
-  color: black;
-  width: 80%;
-  text-align: center;
-  margin:auto; 
-  margin-bottom: 100px;
- font-family: 'Open Sans', sans-serif;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
- background-color: rgba(255, 255, 255, 0.3);
-  padding-top: 20px;
-  padding-bottom: 10px;
-  text-shadow: none;
-  border-radius: 50%;
-}
-
-.carousel-caption .praising span{
-	font-size: 80px;
-	color: purple;
+.join{
+	padding-bottom: 60px;
+	font-size: 55px;
 	font-family: 'Dancing Script', cursive;
-		font-family: 'Old Standard TT', serif;
-		font-family: 'Great Vibes', cursive;
+	font-family: 'Old Standard TT', serif;
+	font-family: 'Great Vibes', cursive;
+	}
+/*
+.carousel-caption .small {
+	text-shadow: none;
+	color: rgb(255, 255, 255);
+	font-size: 18px;
+	margin-bottom: 55px !important;
+}
+*/
+.carousel-caption .power, .carousel-caption .together, .carousel-caption .prayer{
+	font-size: 60px;
+	width: 105%;
+	text-align: center;
+	margin:auto;
+	margin-top: -330px;
+	/*font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;*/
+	font-weight: 700;
+	/*background-color: rgba(255, 255, 255, 0.3);*/
+	padding-top: 20px;
+	padding-bottom: 30px;
+	text-shadow: none;
+	/*border-radius: 50%;*/
+	color: white;
+	/*text-shadow: 2px 2px 1px black;*/
+	text-shadow: 1px 1px 1px rgb(105,105,105);
+}
+/*
+.carousel-caption .together{
+	padding-bottom: 20px;
+}
+*/
+form.location_form{
+	margin: 0 auto; 
+	width:80%;
+	padding-bottom: 30px;
+	padding-left: 80px;
 }
 
-.carousel{
+form.location_form button{
+	margin-left: 10px;
+	border:solid 1px rgb(128,0,128);
+	background:rgb(128,0,128);
+	color: rgb(255, 255, 255);
+}
+
+form.location_form button:hover{
+	/*background:rgba(128,0,128, 0.8);*/
+	border:solid 1px rgb(255, 255, 255);
+}
+
+.carousel-caption input, .carousel-caption button {
+	padding: 20px 40px 20px 40px;
+}
+
+.carousel-caption p a {
+	text-decoration: underline;
+	color: white;
+	text-shadow: 1px 1px 0 black;
+	font-size: 21px;
+	font-weight: 300;
+	font-family: 'Raleway', sans-serif;
+}
+
+/*
+.carousel-caption p a:hover {
+	color: grey;
+}
+*/
+
+.carousel {
 	position: relative;
 	margin: auto;
 	width: 100%;
@@ -153,28 +210,29 @@ margin-bottom: 30px !important;
 }
 
 .carousel .carousel-item {
-  height: 400px;
+  	height: 500px;
 }
 
 .carousel-item img {
     position: absolute;
     top: 0;
     left: 0;
-    min-height: 300px;
+    min-height: 500px;
 }
 
 .carousel .change_size img{
-	height: 450px;
+	height: 500px;
+	max-height: 500px;
 }
 
 ol.carousel-indicators {
-  position: absolute;
-  bottom: 0;
-  margin:0;
-  left: 0;
-  right: 0;
-  top: 340px;
-  width: auto;
+	position: absolute;
+	bottom: 0;
+	margin:0;
+	left: 0;
+	right: 0;
+	top: 440px;
+	width: auto;
 }
 
 
@@ -190,107 +248,369 @@ ol.carousel-indicators li{
 }
 
 ol.carousel-indicators li.active {
-  /*background-color: #717171;*/
-  background-color: white;
+  	/*background-color: #717171;*/
+  	background-color: white;
 }
 
 ol.carousel-indicators li:hover {
-  background-color: #717171;
+ 	background-color: #717171;
+}
+
+.large_fonts_black, .large_fonts_white {
+	font-size: 60px;
+	padding-bottom: 20px;
+	font-weight: 700;
+	line-height: 70px;
+	letter-spacing: -2px;	
+}
+
+.large_fonts_white {
+	color: rgb(255, 255, 255);
 }
 
 
+/*-----  BUTTONS  ------*/
+
+.all_buttons{
+	font-weight: 700;
+	border-radius: 40px;
+	padding: 18px 50px 18px 50px;
+}
+
+.notes_sections {
+	font-size: 20px;
+	text-align: center;
+	background:rgb(0,0,0);
+	color: rgb(255,255,255);
+	padding: 100px 210px 100px 210px;
+}
+
+.notes_sections ul li {
+	list-style: none;
+	display: inline-block;
+	padding-top: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.notes_sections ul li a{
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	border:solid 3px rgb(255,255,255);
+}
+
+.notes_sections .btn-outline:hover {
+	color: rgb(128, 0, 128);
+	border:solid 3px rgb(255,255,255);
+	background: rgb(255,255,255);
+}
 
 .welcome p{
-		font-family: 'Dancing Script', cursive;
-		font-family: 'Old Standard TT', serif;
-		font-family: 'Great Vibes', cursive;
-		text-decoration: none;
-		color: black;
-		margin: auto;
-		margin-top: 35px;
-		margin-bottom: 15px;
-		font-size: 40px;
-		font-weight: 700;
+	font-family: 'Dancing Script', cursive;
+	font-family: 'Old Standard TT', serif;
+	font-family: 'Great Vibes', cursive;
+	text-decoration: none;
+	color: black;
+	margin: auto;
+	margin-top: 24px;
+	margin-bottom: 5px;
+	font-size: 40px;
+	font-weight: 700;
 	}
 
 .welcome_1 {
-	margin-left: 70px;
+
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 
-.welcome_1 h3 {
+.welcome_1_head {
 	font-size: 80px;
-	padding-top: 110px;
 	padding-bottom: 20px;
-	margin-left: 50px;
-	text-align: center;
-	font-family: 'Open Sans', sans-serif;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
 }
 
-.welcome_1 p{
-	font-size: 22px;
-	margin-right: -80px;
+.welcome_1 p:nth-child(2){
+	font-size: 20px;
+	font-weight: 300;
+	padding-left: 180px;
+	padding-right: 180px;
 }
-
+/*
 .welcome_1 img {
 	margin-left: 40px;
 }
-
-.greet {
-	padding-bottom: 30px;
+*/
+.teaching_series{
+	padding: 50px 120px 50px 120px;
+	/*background: rgba(230,208,255, 0.2);*/
+	font-size: 22px;
 }
 
+/*
+.teaching_series_head {
+	font-size: 28px;
+	font-weight: 300;
+	padding-bottom: 30px;
+}
+*/
+.teaching_series img {
+	width: 800px;
+	height: auto;
+	box-shadow: 5px 15px 30px rgb(157, 157, 157);
+}
+
+
+.teaching_note {
+	padding-top: 50px;
+}
+
+.teaching_series p a{
+	font-size: 22px;
+	font-weight: 100;
+	text-decoration: none;
+	color: rgb(128, 0, 128);
+}
+
+.teaching_series p a:hover{
+	color: rgb(130,10,130);
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+
+
+.new_app {
+	padding-top: 60px;
+	padding-bottom: 80px;
+	font-size: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	font-weight: 500;
+}
+
+.new_app .col_1{
+	padding-right: 60px;
+}
+
+.new_app .col_2{
+	padding-top: 80px;
+}
+
+
+.new_app .btn-outline, .statement_whole button{
+	border:solid 3px rgb(128,0,128);
+	color: rgb(128,0,128);
+	padding: 18px 50px 18px 50px;
+}
+
+.new_app .btn-outline:hover, .statement_whole button:hover {
+	background: rgb(128,0,128);
+	color: rgb(255, 255, 255);
+}
+
+.new_app img{
+	width: 650px;
+	height: auto; 
+}
+
+.new_app p{
+padding-bottom: 25px;
+}
+
+
+
+.section_head, .teaching_series_head, .new_app_head, .faith_heading, .baptism_heading{
+	font-size: 50px;
+	font-weight: 700;
+	letter-spacing: -2px;	
+	}
+
+.small_sections_links{
+	padding:35px 80px 18px 80px;
+	height: 100px;
+	background: rgb(88,55,89);
+}
+
+.small_sections_links ul li{
+	display: inline;
+}
+
+.small_sections_links ul li a{
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-weight: 500;
+	
+}
+
+.small_sections_links ul li .right{
+		margin-left: 70px;
+		font-size: 22px;
+}
+
+.social_links_small{
+	float: right;
+	margin-right: 20px;
+}
+
+.social_links_small a{
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+
+
+/***********************
+	
+	ABOUT US PAGE
+
+***********************/
+
+/*settings are for multiple use*/
+
+.top_image_setting{
+	height: 350px;
+}
+
+.top_image_setting p{
+	padding-top: 115px;
+	font-size: 80px;
+	font-weight: 700;
+	color: rgb(255, 255, 255);
+}
+
+.about_background {
+	background: url('../img/about_us_people1.jpg') 50% 0;
+
+ 	/* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about_story, .faith_baptism{
+	padding: 30px 90px 100px 90px;
+}
+
+.about_story p, .statement_whole p {
+	font-size: 22px;
+}
+
+.social_links_big ul {
+	padding-top: 60px;
+	text-align: center;
+}
+
+.social_links_big ul li {
+	padding-right: 2px;
+	list-style: none;
+	display: inline-block;
+}
+
+.social_links_big ul li a {
+	text-decoration: none;
+	border:solid 1px transparent;
+	padding: 4px 40px 5px 4px;
+	border-radius: 5px;
+	color: rgb(255,255, 255);
+}
+
+.social_links_big ul li a:hover {
+	padding: 4px 45px 5px 10px;
+}
+
+.social_links_big .fa {
+	color: rgb(255,255,255);
+}
+
+.social_links_big ul li .instagram {
+   background: #8a3ab9;
+}
+
+.social_links_big ul li .facebook {
+	background: rgb(59,89,152);
+}
+
+.social_links_big ul li .pinterest {
+	background: rgb(201,34,40);
+}
+
+.social_links_big ul li .twitter {
+	background: rgb(0, 172, 237);
+}
+
+.social_links_big ul li .youtube {
+	background: rgb(255, 0, 0);
+	padding-right: 25px;
+}
+
+.belief_background {
+	background: url('../img/bible_study.jpg') 50% 0;
+ 	
+ 	/* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*
 .mission {
 	background-color: rgb(128,0,128);
 }
-
-.section_head {
-	color: white;
-	font-weight: 400;
-	font-size: 35px;
-	padding-top: 12px;
-	padding-left: 35px;
-}
+*/
 
 .mission_statement {
+	/*border-top: solid 5px rgb(128,0,128);
+	border-bottom: solid 45px rgb(128,0,128);*/
+	height: 450px;
 	padding: 30px 0 30px 0;
-	background: url('../img/mission.jpeg') 50% 0 no-repeat;
- 	background-size: cover;
+	background: url('../img/people_people.png') 50% 0;
+
+ 	/* The code below creates the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.mission_statement p{
-	font-size: 28px;
+.mission_statement p:nth-child(2){
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+	
 }
 
-.first {
-	padding-left: 100px;
-	font-weight: 400;
+.mission_statement_2 {
+	font-size: 20px;
+	padding-top: 10px;
+	padding-right: 60px;
+	padding-left: 90px;
+	margin-bottom: 20px;
 }
 
-.second {
-	padding-left: 370px;
-	color: rgb(220,20,220);
-	font-weight: 400;
+.mission_statement_2 ul{
+	padding-left: 150px;
 }
 
-.third {
-	padding-left: 680px;
-	color: rgb(220,252,250);
-	font-weight: 400;
+.mission_statement p:first-child{
+	font-size: 60px;
+	padding-top: 140px;
+	color: rgb(255, 255, 255);
+	text-shadow: 0 5px 2px rgba(0, 0, 0, 0.5);
 }
-
 
 .mission_vision {
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 20px;
 }
 
-.mission_statement_para{
-	padding-top: 40px;
-	padding-bottom: 40px;
+.mission_statement_2,.mission_statement_para{
+	padding-bottom: 30px;
 	font-size: 20px;
 	line-height: 32px;
+}
+
+.mission_statement_para {
+	padding-top: 20px;
 }
 
 .mission_statement_para img{
@@ -299,9 +619,23 @@ ol.carousel-indicators li:hover {
 	height:auto;
 }
 
+.line {
+	/*width: 10%;*/
+	margin-top: 60px;
+	margin-right: 60px;
+	margin-left: 60px;
+	/*height: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:rgb(88,55,89);*/
+	/*color:rgb(88,55,89);*/
+	/*border: 0 none;*/
+}
+
 .mission_statement_para p {
 	padding-bottom: 25px;
 }
+
 .mission_statement_para .btn {
 	color: rgb(128,128,128);
 	border:1px solid rgb(192,192,192);
@@ -311,20 +645,23 @@ ol.carousel-indicators li:hover {
 }
 
 .mission_statement_para .btn:hover {
-	color: rgb(105,105,105)
+	color: rgb(105,105,105);
 }
+
 
 /*-----VISION-----*/
 
-.vision {
-	margin-top: 50px;
-	background-color: rgb(88,55,89);
+
+.mission, .vision {
+	margin-top: 40px;
+	padding-bottom: 20px;
+	/*background: rgb(88,55,89);*/
 }
 
 .vision_background{
 	background: url('../img/vision.jpg') 50% 0 no-repeat;
  	background-size: cover;
- 	margin-bottom: 20px;
+ 	
 }
 
 .vision_background ul{
@@ -332,6 +669,7 @@ ol.carousel-indicators li:hover {
 	background-color: rgba(255,255,255,0.6);
 	padding:30px 30px 30px 40px;
 	margin-bottom: 0;
+	font-size: 20px;
 }
 
 .bible_quote {
@@ -363,13 +701,13 @@ ol.carousel-indicators li:hover {
 }
 
 .underline {
-width: 10%;
-height: 5px;
-margin-left: auto;
-margin-right: auto;
-background-color:rgb(88,55,89);
-/*color:rgb(88,55,89);*/
-border: 0 none;
+	/*width: 10%;*/
+	height: 10px;
+	/*margin-left: auto;
+	margin-right: auto;
+	background-color:rgb(88,55,89);*/
+	/*color:rgb(88,55,89);*/
+	/*border: 0 none;*/
 }
 
 .join_min_sub_head {
@@ -379,8 +717,6 @@ border: 0 none;
 	font-weight: 300;
 }
 
-.col-md-offset-2 .row{
-}
 .ministries img {
 	height: 110px;
 	width: auto;
@@ -427,6 +763,7 @@ border: 0 none;
 	padding-bottom: 50px;
 	color: rgb(255,255,255);
 }
+
 .info img {
 	padding-top: 50px;
 	margin-left: 30px;
@@ -435,8 +772,13 @@ border: 0 none;
 	border-radius: 60% 60% 0 40%;
 }
 
-.info li {
+.small_sections_links li, .info li, .beliefs li{
 	list-style-type: none;
+}
+
+.beliefs li a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
 }
 
 .info a{
@@ -444,12 +786,16 @@ border: 0 none;
 	color: rgb(160, 160, 160);
 	font-size: 16px;
 }
+
 /* mouse over link */
 .info a:hover, footer p span a:hover{
 	text-decoration: underline;
 	color: white;
 }
 
+.info ul .active {
+	color: white;
+}
 .visit_location {
 	padding-bottom: 50px;
 }
@@ -471,6 +817,7 @@ border: 0 none;
 .number {
 	font-size: 30px;
 }
+
 .contact .address {
 	font-size: 12px;
 }
@@ -479,6 +826,9 @@ border: 0 none;
 	color: white;
 }
 
+.info .email {
+ font-size: 16px;
+}
 
 .info .connect_social {
 	padding-top: 20px;
@@ -487,7 +837,7 @@ border: 0 none;
 }
 
 .info .social_links {
-margin-top: -20px;
+	margin-top: -20px;
 }
 
 .info .social_links .fa {
@@ -497,11 +847,11 @@ margin-top: -20px;
 	text-align: center;
 }
 
-.info .social_links .fa-instagram{
+.social_links_big .fa-instagram ,.info .social_links .fa-instagram{
    text-decoration: none;
    border-radius: 20%;
    padding:3px;
-    color: white; /* For browsers that do not support gradients */
+   color: white; /* For browsers that do not support gradients */
    /*gradient colors for instagram*/
    background: linear-gradient(
       to bottom left,
@@ -514,7 +864,7 @@ margin-top: -20px;
 
 .info .social_links .fa-pinterest{
 	color: rgb(201,34,40);
-	background-color: white;
+	background-color: rgb(255, 255, 255);
 	border-radius: 50%;
 	padding-left: 2px;
 	padding-right: 2px;
@@ -525,14 +875,12 @@ margin-top: -20px;
 	color: rgb(0, 172, 237);
 }
 
-
 .info .social_links .fa-facebook{
 	text-decoration: none;
 	color: rgb(59,89,152);
 }
 
-
-.info .social_links .fa-youtube{
+.social_links_big .fa-youtube, .info .social_links .fa-youtube{
 	text-decoration: none;
 	color: rgb(255, 255, 255);
 	background-color:rgb(255, 0, 0);
@@ -558,7 +906,112 @@ footer p span a {
 	color: white;
 }
 
+/*--*************************
+          BELIEF PAGE
+**************************--*/
 
+
+.beliefs_baptism{
+	margin-left: 70px;
+	font-weight: 500;
+	font-size: 17px;
+}
+
+.beliefs_baptism:hover{
+	text-decoration: underline;
+}
+
+.faith_baptism {
+padding-top: 50px;
+padding-bottom: 90px;
+font-size: 18px;
+}
+
+.statement_whole a {
+	text-decoration: none;
+	color: rgb(0,0,0);
+}
+
+.statement_whole button {
+	background: transparent;
+	margin-top: 30px;
+	font-size: 20px;
+	padding: 10px 40px 10px 40px;
+}
+
+#view_more {
+	display: none;
+}
+
+.faith_statements_title{ 
+	/*text-decoration:underline; */
+	border: solid 2px rgb(128, 0, 128);
+	border-right: none;
+	border-left: none;
+	border-top: none;
+	/*background: rgb(128,0,128);*/
+	color: grey;
+	font-size: 22px;
+	font-weight: 500;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top:30px;
+	margin-left: 370px;
+	margin-right: 370px;
+}
+
+.water_baptism {
+	background: rgb(130,10,130);
+}
+
+
+.baptism {
+	padding-bottom: 100px;
+	/*background: url('../img/baptism_background.jpg') 50% 0 no-repeat;
+ 	background-size: cover;
+ 	*/
+}
+
+.baptism .about_baptism, .baptism .baptism_vids{
+	padding-top: 90px;
+}
+.about_baptism {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+/*
+.about_baptism p:first-child {
+	color: rgb(255, 255, 255);
+}
+*/
+
+.about_baptism p:nth-child(2), .about_baptism p:nth-child(4), .baptism_vids p:nth-child(2), .baptism_vids p:nth-child(5) {
+	font-weight: 400;
+	font-size: 20px;
+	
+
+}
+.about_baptism p:first-child, .about_baptism p:nth-child(3), .baptism_vids p:nth-child(4){
+	font-weight: 700;
+	font-size: 26px;
+}
+
+.baptism_vids {
+	padding-top: 50px;
+	padding-left: 100px;
+	padding-right: 80px;
+}
+
+
+/*
+
+
+.statement_whole button {
+	border: none;
+	font-size: 26px;
+	color: purple;
+}
+*/
 /*************************
 
 		MEDIA SCREENS 
@@ -571,14 +1024,15 @@ footer p span a {
 		font-size: 14px;
 		margin-left: 0px;
 	}
-.welcome_1 h3 {
-	margin-left: 20px;
-}
+	/*
+	.welcome_1 h3 {
+		margin-left: 20px;
+	}
 	.welcome_1 img {
 	margin-top: 140px;
 	margin-left: 60px;
 	}
-
+*/
 	.first {
 		padding-left: 70px;
 	}
@@ -597,9 +1051,27 @@ footer p span a {
 	}
 
 	.large-navbar {
+		background-color: transparent;
 	position: relative;
 	margin-top: 70px;
-}
+	}
+/*
+	.statement_of_faith p:first-child {
+		font-size: 30px;
+	}
+
+	*/
+
+	.carousel-caption .power, .carousel-caption .together{
+	font-size: 50px;
+	width: 105%;
+	margin-right: 240px;
+	}
+
+	form.location_form{
+	margin: 0 auto; 
+	width:100%;
+	}
 
 }
 
@@ -610,34 +1082,38 @@ footer p span a {
 		margin-left: 0px;
 	}
 
+	.search_form input{
+		max-width: 115px;
+	}
+/*
 	.welcome_1 h3{
 		margin-top: -40px;
 		padding-left: 100px;
 	}
 
-
+*/
 	.welcome_1 p{
 		margin-left: -35px;
 		font-size: 18px;
 	}
-
+/*
 	.welcome_1 img {
 	margin-top: 200px;
 	margin-left: 60px;
 	}
-
-	.carousel-caption .praising{
+*/
+	.carousel-caption .together{
   	font-size: 50px;
   	width: 100%;
   	margin-bottom: 90px;
   	padding-bottom: 10px;
   	border-radius: 50%;
 }
-
-	.carousel-caption .praising span{
+/*
+	.carousel-caption .together span{
 		font-size: 80px;
 	}
-
+*/
 	.first {
 		padding-left: 50px;
 	}
@@ -661,12 +1137,47 @@ footer p span a {
 	text-align: center;
 	}
 
+	.beliefs_head{
+		font-size: 35px;
+	}
+
+	.beliefs_statement,.beliefs_baptism{
+		margin-left: 50px;
+		font-weight: 400;
+		font-size: 17px;
+	}
+/*
+	.statement_of_faith p:first-child {
+		font-size: 24px;
+	}
+*/
+	.info .email {
+	 	font-size: 14px;
+	}
+
+
+	.carousel-caption .power, .carousel-caption .together{
+		font-size: 40px;
+		width: 105%;
+		margin-right: 240px;
+	}
+
+	form.location_form{
+		margin: 0 auto; 
+		width:110%;
+		padding-bottom: 10px;
+		padding-left: 30px;
+	}
+	.carousel-caption .together{
+		margin-top: -310px;
+		margin-bottom: 0px;
+	}
 
 }
 
 @media only screen and (max-width: 768px) {
 
-	.carousel-caption .praising{
+	.carousel-caption .together{
 		font-size: 45px;
 	}
 
@@ -674,7 +1185,42 @@ footer p span a {
 	padding: 120px 70px 120px 70px;
 	/*background-position: 50% 90px;*/
 	}
+
+	.beliefs_head{
+	font-size: 35px;
+	}
+
+	.beliefs_statement,.beliefs_baptism{
+		margin-left: 30px;
+	}
+		/*
+
+.statement_of_faith p {
+	padding-left: 50px;
+	padding-right: 50px;
+	}
+
+	.statement_of_faith p:first-child {
+	font-size: 26px;
+	}
+*/
+	.carousel-caption .power, .carousel-caption .together{
+		font-size: 35px;
 	
+	}
+
+	form.location_form{
+		margin: 0 auto; 
+		width:110%;
+		padding-bottom: 5px;
+		padding-left: 10px;
+	}
+
+	.carousel-caption .together{
+		margin-top: -310px;
+		margin-bottom: 0px;
+	}
+
 }
 
 @media only screen and (max-width: 670px) {
@@ -722,13 +1268,13 @@ footer p span a {
 		font-weight: 700;
 		font-size: 40px;
 	}
-
+/*
 	.welcome_1 h3 {
 	margin-left: 20px;
 	font-size: 50px;
 	}
-
-	.carousel-caption .praising{
+*/
+	.carousel-caption .together{
 		font-size: 35px;
 	}
 
@@ -745,32 +1291,87 @@ footer p span a {
 		float: left;
 	}
 
-	.contact_us, .number, .office, .address {
+	.contact_us, .number, .office, .address, .email {
 		margin-left: -270px;
 		text-align: center;
 	}
+
+
+	.beliefs_head{
+	font-weight: 500;
+	font-size: 30px;
+	}
+
+	.beliefs_statement,.beliefs_baptism{
+		margin-left: 10px;
+		font-weight: 400;
+		font-size: 15px;
+	}
+
+	.beliefs ul li{
+		display: inline;
+	}
 	
+/*
+	.statement_of_faith p:first-child {
+	font-size: 18px;
+	}
+*/
+	.faith_baptism {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	}
+
+
+	.carousel-caption .power, .carousel-caption .together{
+		font-size: 35px;
+		width: 120%;
+		margin-left: -50px;
+	}
+
+	form.location_form{
+		margin: 0 auto; 
+		width:120%;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		}
+
+	.carousel-caption .together{
+		margin-top: -310px;
+		margin-bottom: 0px;
+	}
+
+	.carousel-caption input, .carousel-caption button {
+		padding: 15px 10px 15px 10px;
+	}
+
+	.carousel-caption .link {
+		padding-top: 20px;
+		font-size: 21px;
+	}
 }
 
 
 @media only screen and (max-width: 568px) {
-  .welcome p{
 
+  .welcome p{
   	text-align: center;
   }
-
+/*
 	.welcome_1 h3 {
 	margin-left: -160px;
 	}
+	*/
 	.welcome_1 p{
 	margin-left: -60px;
 	margin-right: 10px;
 	}
+	/*
 	.welcome_1 img {
 	margin-top: 20px;
 	margin-left: -70px;
 	}
-
+*/
 	.mission_statement_para img{
 	width:330px; 
 	height:auto;
@@ -788,21 +1389,53 @@ footer p span a {
 		padding-left: 5px;
 	}
 
-	.carousel-caption .praising{
+	.carousel-caption .together{
 	font-size: 25px;
 	}
+
+	.beliefs_head{
+	font-weight: 700;
+	font-size: 25px;
+	}
+
+	.beliefs_statement,.beliefs_baptism{
+		font-weight: 400;
+		font-size: 12px;
+	}
+
+	.carousel-caption .power, .carousel-caption .together{
+		font-size: 30px;
+	}
+
+
+	form.location_form input{
+		width: 170px;
+	}
+
+
+	form.location_form{
+		margin: 0 auto; 
+		width:120%;
+		margin-left: 20px;
+	}
+
+  .carousel-caption input, .carousel-caption button {
+		padding: 12px 8px 12px 8px;
+		font-size: 16px;
+	}
+
 
 }
 
 @media only screen and (max-width: 375px) {
- .carousel-caption .praising{
+ .carousel-caption .together{
 	font-size: 20px;
 	margin-bottom: 160px;
 	}
 
 
 	.mission_statement_para img{
-	width:280px; 
+		width:280px; 
 	}
 
 	.mission_statement_para .btn {
@@ -810,13 +1443,13 @@ footer p span a {
 		font-size: 10px;
 	}
 
-
-	.carousel-caption .praising span{
+/*
+	.carousel-caption .together span{
 		font-size: 40px;
 	}
-
+*/
 	.bible_quote {
-	padding: 50px 30px 50px 30px;
+		padding: 50px 30px 50px 30px;
 	/*background-position: 50% 90px;*/
 	}
 	.bible_quote p {
@@ -827,22 +1460,77 @@ footer p span a {
 		margin-left: 15px;
 	}
 
-	.contact_us, .number, .office, .address {
+	.contact_us, .number, .office, .address, .email {
 		margin-left: -170px;
 		text-align: center;
 	}
 
 	.info .social_links .fa {
-	margin-left: 3px;
-	font-size: 20px;
+		margin-left: 3px;
+		font-size: 20px;
 	}
 
 	footer p span {
-	float: left;
+		float: left;
 	}
 
 	.info .connect_social {
-	padding-left: 0px;
-	font-size: 14px;
+		padding-left: 0px;
+		font-size: 14px;
+	}
+
+
+	.beliefs ul li{
+	display: block;
+	}
+
+	.beliefs_head{
+		font-size: 20px;
+	}
+/*
+	.statement_of_faith p {
+	padding-left: 20px;
+	padding-right: 20px;
+	}
+	.statement_of_faith p:nth-child(2) {
+	font-size: 26px;
+	}
+*/
+	.carousel-caption .power, .carousel-caption .together{
+		padding-top: 0;
+		font-size: 30px;
+		margin-left: -14px;
+		text-align: center;
+	}
+
+	.carousel-caption .together{
+		margin-bottom: 0px;
+	}
+
+	.power_media_screen {
+		text-align: center;
+		padding-left: 40px;
+	}
+
+	form.location_form input{
+		width: 155px;
+		margin-left: -20px;
+	}
+
+
+	form.location_form{
+		margin: 0 auto; 
+		width:145%;
+	}
+
+
+
+	form.location_form button{
+	margin-left: 0px;
+}
+
+  .carousel-caption input, .carousel-caption button {
+		padding: 12px 8px 12px 8px;
+		font-size: 16px;
 	}
  }
