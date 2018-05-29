@@ -1005,19 +1005,27 @@ font-size: 18px;
 
 /*
 
-
 .statement_whole button {
 	border: none;
 	font-size: 26px;
 	color: purple;
 }
 */
+
+
 /*************************
 
 		MEDIA SCREENS 
 
 *************************/
 
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
 
 @media only screen and (max-width: 1024px) {
 	.nav-item {
