@@ -478,8 +478,9 @@ padding-bottom: 25px;
 	color: rgb(255, 255, 255);
 }
 
+
 .about_background {
-	background: url('../img/about_us_people1.jpg') 50% 0;
+	background: url('https://i.imgur.com/aOyGh2E.jpg') 50% 0;
 
  	/* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -545,7 +546,7 @@ padding-bottom: 25px;
 }
 
 .belief_background {
-	background: url('../img/bible_study.jpg') 50% 0;
+	background: url('https://i.imgur.com/HBKhMWd.jpg') 50% 0;
  	
  	/* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -565,7 +566,7 @@ padding-bottom: 25px;
 	border-bottom: solid 45px rgb(128,0,128);*/
 	height: 450px;
 	padding: 30px 0 30px 0;
-	background: url('../img/people_people.png') 50% 0;
+	background: url('https://i.imgur.com/RxVvYlK.png') 50% 0;
 
  	/* The code below creates the parallax scrolling effect */
     background-attachment: fixed;
@@ -659,7 +660,7 @@ padding-bottom: 25px;
 }
 
 .vision_background{
-	background: url('../img/vision.jpg') 50% 0 no-repeat;
+	background: url('https://i.imgur.com/mDN7dP8.jpg') 50% 0 no-repeat;
  	background-size: cover;
  	
 }
