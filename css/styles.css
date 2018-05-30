@@ -72,7 +72,9 @@ margin-top: 20px;
 
 form.search_form button{
 	border:solid 1px rgb(128,0,128);
-	background:rgb(128,0,128);
+	background: rgb(128,0,128);
+	/*border:solid 1px rgb(128,0,128);
+	background:rgb(128,0,128);*/
 }
 
 form.search_form button:hover{
@@ -174,7 +176,11 @@ form.location_form{
 form.location_form button{
 	margin-left: 10px;
 	border:solid 1px rgb(128,0,128);
+	background: rgb(128,0,128);
+	/*
+	border:solid 1px rgb(128,0,128);
 	background:rgb(128,0,128);
+	*/
 	color: rgb(255, 255, 255);
 }
 
@@ -416,8 +422,6 @@ ol.carousel-indicators li:hover {
 .new_app p{
 padding-bottom: 25px;
 }
-
-
 
 .section_head, .teaching_series_head, .new_app_head, .faith_heading, .baptism_heading{
 	font-size: 50px;
