@@ -24,6 +24,16 @@ body {
 }
 */
 
+
+.small-navbar .navbar-brand {
+  	font-family: 'Dancing Script', cursive;
+	font-family: 'Old Standard TT', serif;
+	font-family: 'Great Vibes', cursive;
+	padding-top: 15px;
+	padding-bottom: 0;
+}
+
+
 .small-navbar {
 	margin-top:-10px;
 	margin-bottom:-10px;
@@ -35,9 +45,13 @@ body {
 .big-navbar {
 	margin-top: 45px; 
 	height: 100px;
+	background-color: #222;
+	font-weight: 100;
 }
 
-
+.big-navbar ul{
+	padding-top: 20px;
+}
 /*
 .small-navbar .navbar-brand {
 	margin-left: 12px;
@@ -76,31 +90,37 @@ margin-top: 20px;
   	border-radius: 30px 30px 0 25px;
 }
 
-
-/*
-.navbar-brand p{
-	font-size: 18px;
+.big-navbar .navbar-brand img:hover {
+	margin-top: -7px;
 }
-
-
+/*
 .hidden_large_screen {
 	display: none;
 }
+*/
+form.search-form input {
+	font-weight: 100;
+}
 
-form.search_form button{
-	border:solid 1px rgb(128,0,128);
-	background: rgb(128,0,128);
+form.search-form button{
+	/*border:solid 1px rgb(255,255,255);*/
+	background: rgb(178, 12, 178);
 	
 }
 
-form.search_form button:hover{
-	border:solid 1px rgb(255, 255, 255);
+form.search-form button:hover{
+	border:solid 1px transparent;
+	background: rgb(128,0,128);
 }
 
-form.search_form button .fa {
+form.search-form button .fa {
 	color: rgb(255,255,255);
 }
-*/
+
+form.search-form button .fa:hover {
+	color: rgb(255,255,255);
+}
+
 
 /* Next & previous buttons */
 
@@ -209,7 +229,6 @@ form.location_form button:hover{
 }
 
 .carousel-caption p a {
-	text-decoration: underline;
 	color: white;
 	text-shadow: 1px 1px 0 black;
 	font-size: 21px;
@@ -217,6 +236,9 @@ form.location_form button:hover{
 	font-family: 'Raleway', sans-serif;
 }
 
+carousel-caption p a:hover {
+	text-decoration: underline;
+}
 /*
 .carousel-caption p a:hover {
 	color: grey;
@@ -260,7 +282,8 @@ ol.carousel-indicators {
 /* The indicators - changes shape to bullets/dots */
 ol.carousel-indicators li{
   	float: left;
-  	width: 33% !important;
+  	width: auto;
+  	/*width: 33% !important;*/
   	height: 30px;
 	border: solid 1px white !important;
 	background-color: transparent;
