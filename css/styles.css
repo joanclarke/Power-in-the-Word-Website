@@ -34,7 +34,7 @@ body {
 }
 
 
-.small-navbar {
+.small-navbar, .all-options-navbar {
 	margin-top:-10px;
 	margin-bottom:-10px;
 	font-size: 14px;
@@ -43,11 +43,12 @@ body {
 }
 
 .big-navbar {
-	margin-top: 45px; 
+	/*margin-top: 45px; */
 	height: 100px;
 	background-color: #222;
 	font-weight: 100;
 }
+
 
 .big-navbar ul{
 	padding-top: 20px;
@@ -78,7 +79,7 @@ margin-top: 20px;
 */
 
 
-.big-navbar .navbar-brand img {
+.big-navbar .navbar-brand img{
 	margin-top: 5px;
 	width:65px;
 	height:60px;
@@ -119,6 +120,34 @@ form.search-form button .fa {
 
 form.search-form button .fa:hover {
 	color: rgb(255,255,255);
+}
+
+
+
+.all-options-navbar { 
+flex-direction: initial;
+	/*
+-webkit-box-orient: vertical; */
+    /* -webkit-box-direction: normal; */
+    /* -webkit-flex-direction: column; */
+	
+	font-weight: 100;
+}
+
+
+.all-options-navbar .short_menu {
+	
+}
+
+.all-options-navbar .hamburger_menu{
+	
+}
+
+.navbar.navbar-3 .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000');
+
+border: solid 1px white;
+border-radius: 50%;
 }
 
 
@@ -282,8 +311,8 @@ ol.carousel-indicators {
 /* The indicators - changes shape to bullets/dots */
 ol.carousel-indicators li{
   	float: left;
-  	width: auto;
-  	/*width: 33% !important;*/
+  	/*width: auto;*/
+  	width: 13% !important;
   	height: 30px;
 	border: solid 1px white !important;
 	background-color: transparent;
