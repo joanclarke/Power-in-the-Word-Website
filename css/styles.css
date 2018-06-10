@@ -34,7 +34,7 @@ body {
 }
 
 
-.small-navbar {
+.small-navbar, .all-options-navbar {
 	margin-top:-10px;
 	margin-bottom:-10px;
 	font-size: 14px;
@@ -43,11 +43,12 @@ body {
 }
 
 .big-navbar {
-	margin-top: 45px; 
+	/*margin-top: 45px; */
 	height: 100px;
 	background-color: #222;
 	font-weight: 100;
 }
+
 
 .big-navbar ul{
 	padding-top: 20px;
@@ -61,24 +62,20 @@ body {
 	font-family: 'Old Standard TT', serif;
 	font-family: 'Great Vibes', cursive;
 }
-
 .large-navbar {
 	position: relative;
 	margin-top: 40px;
 }
-
 .large-navbar .navbar-nav {
 margin-top: 20px;
 }
-
 .nav-item {
 	margin-left: 5px;
 }
-
 */
 
 
-.big-navbar .navbar-brand img {
+.big-navbar .navbar-brand img{
 	margin-top: 5px;
 	width:65px;
 	height:60px;
@@ -119,6 +116,34 @@ form.search-form button .fa {
 
 form.search-form button .fa:hover {
 	color: rgb(255,255,255);
+}
+
+
+
+.all-options-navbar { 
+flex-direction: initial;
+	/*
+-webkit-box-orient: vertical; */
+    /* -webkit-box-direction: normal; */
+    /* -webkit-flex-direction: column; */
+	
+	font-weight: 100;
+}
+
+
+.all-options-navbar .short_menu {
+	
+}
+
+.all-options-navbar .hamburger_menu{
+	
+}
+
+.navbar.navbar-3 .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000');
+
+border: solid 1px white;
+border-radius: 50%;
 }
 
 
@@ -282,8 +307,8 @@ ol.carousel-indicators {
 /* The indicators - changes shape to bullets/dots */
 ol.carousel-indicators li{
   	float: left;
-  	width: auto;
-  	width: 5% !important;
+  	/*width: auto;*/
+  	width: 3% !important;
   	height: 30px;
 	border: solid 1px white !important;
 	background-color: transparent;
@@ -334,7 +359,6 @@ ol.carousel-indicators li:hover {
 .link_btn{
 	border-radius: 200px !important;
 }
-
 */
 .notes_sections {
 	font-size: 20px;
@@ -531,7 +555,6 @@ padding-bottom: 25px;
 /***********************
 	
 	ABOUT US PAGE
-
 ***********************/
 
 /*settings are for multiple use*/
@@ -1122,7 +1145,6 @@ font-weight: 300;
 
 
 /*
-
 .statement_whole button {
 	border: none;
 	font-size: 26px;
@@ -1132,9 +1154,7 @@ font-weight: 300;
 
 
 /*************************
-
 		MEDIA SCREENS 
-
 *************************/
 
 
@@ -1185,7 +1205,6 @@ font-weight: 300;
 	.statement_of_faith p:first-child {
 		font-size: 30px;
 	}
-
 	*/
 
 	.carousel-caption .power, .carousel-caption .together{
@@ -1216,7 +1235,6 @@ font-weight: 300;
 		margin-top: -40px;
 		padding-left: 100px;
 	}
-
 */
 	.welcome_1 p{
 		margin-left: -35px;
@@ -1325,12 +1343,10 @@ font-weight: 300;
 		margin-left: 30px;
 	}
 		/*
-
 .statement_of_faith p {
 	padding-left: 50px;
 	padding-right: 50px;
 	}
-
 	.statement_of_faith p:first-child {
 	font-size: 26px;
 	}
