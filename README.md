@@ -1,6 +1,8 @@
 # Power-in-the-Word-Website
 
-Creating a Church website for Power In The Word Ministries
+This website is solely for project purposes only.
+
+Creating a sample Church website for Power In The Word Ministries
 using:  HTML5,
         CSS3,
         JavaScript,
