@@ -18,11 +18,6 @@ body {
 	font-family: 'Roboto', sans-serif;
   	*/
 }
-/*
-.navbar{
-	margin-bottom: 0px;
-}
-*/
 
 
 .small-navbar .navbar-brand {
@@ -53,27 +48,6 @@ body {
 .big-navbar ul{
 	padding-top: 20px;
 }
-/*
-.small-navbar .navbar-brand {
-	margin-left: 12px;
-	margin-top: 7px;
-	margin-bottom: -38px;
-	font-family: 'Dancing Script', cursive;
-	font-family: 'Old Standard TT', serif;
-	font-family: 'Great Vibes', cursive;
-}
-.large-navbar {
-	position: relative;
-	margin-top: 40px;
-}
-.large-navbar .navbar-nav {
-margin-top: 20px;
-}
-.nav-item {
-	margin-left: 5px;
-}
-*/
-
 
 .big-navbar .navbar-brand img{
 	margin-top: 5px;
@@ -95,6 +69,7 @@ margin-top: 20px;
 	display: none;
 }
 */
+
 form.search-form input {
 	font-weight: 100;
 }
@@ -141,9 +116,8 @@ flex-direction: initial;
 
 .navbar.navbar-3 .navbar-toggler-icon {
     background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000');
-
-border: solid 1px white;
-border-radius: 50%;
+	border: solid 1px white;
+	border-radius: 50%;
 }
 
 
@@ -151,10 +125,6 @@ border-radius: 50%;
 
 .carousel-control-prev, .carousel-control-next{
   cursor: pointer;
-  /*position: absolute;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;*/
   color: white;
   font-weight: bold;
   font-size: 300px !important;
@@ -165,23 +135,7 @@ border-radius: 50%;
 .carousel-control-next-icon, .carousel-control-next-icon{
 	font-size: 400px !important;
 }
-/*
-.carousel-caption .prayer{
-	font-weight: 700;
-  	text-align: center;
- 	/*text-shadow: 0 5px 2px rgba(0, 0, 0, 0.5);*/
-	/*font-size: 35px;
-	color: white;
-	width: 60%;
-  	margin:auto; 
-  	margin-top: 60px;
-  	margin-bottom: 20px;
- 	font-family: 'Carrois Gothic SC', sans-serif;*/
- 	/*background-color: rgba(0, 0, 0, 0.4);*/
-  	/*padding-top: 20px;
-  	padding-bottom: 10px;
-}
-*/
+
 .carousel-caption .prayer span {
 	font-size: 100px;
 	
@@ -195,14 +149,7 @@ border-radius: 50%;
 	font-family: 'Old Standard TT', serif;
 	font-family: 'Great Vibes', cursive;
 	}
-/*
-.carousel-caption .small {
-	text-shadow: none;
-	color: rgb(255, 255, 255);
-	font-size: 18px;
-	margin-bottom: 55px !important;
-}
-*/
+
 .carousel-caption .power, .carousel-caption .together, .carousel-caption .prayer{
 	font-size: 60px;
 	width: 105%;
@@ -221,11 +168,7 @@ border-radius: 50%;
 	/*text-shadow: 2px 2px 1px black;*/
 	text-shadow: 1px 1px 1px rgb(105,105,105);
 }
-/*
-.carousel-caption .together{
-	padding-bottom: 20px;
-}
-*/
+
 form.location_form{
 	margin: 0 auto; 
 	width:80%;
@@ -237,15 +180,10 @@ form.location_form button{
 	margin-left: 10px;
 	border:solid 1px rgb(128,0,128);
 	background: rgb(128,0,128);
-	/*
-	border:solid 1px rgb(128,0,128);
-	background:rgb(128,0,128);
-	*/
 	color: rgb(255, 255, 255);
 }
 
 form.location_form button:hover{
-	/*background:rgba(128,0,128, 0.8);*/
 	border:solid 1px rgb(255, 255, 255);
 }
 
@@ -264,11 +202,6 @@ form.location_form button:hover{
 carousel-caption p a:hover {
 	text-decoration: underline;
 }
-/*
-.carousel-caption p a:hover {
-	color: grey;
-}
-*/
 
 .carousel {
 	position: relative;
@@ -308,7 +241,7 @@ ol.carousel-indicators {
 ol.carousel-indicators li{
   	float: left;
   	/*width: auto;*/
-  	width: 3% !important;
+  	width: 2% !important;
   	height: 30px;
 	border: solid 1px white !important;
 	background-color: transparent;
@@ -355,11 +288,7 @@ ol.carousel-indicators li:hover {
   	border-radius: 40px;
 	padding: 18px 50px 18px 50px;
 }
-/*
-.link_btn{
-	border-radius: 200px !important;
-}
-*/
+
 .notes_sections {
 	font-size: 20px;
 	font-weight: 300;
@@ -418,11 +347,7 @@ ol.carousel-indicators li:hover {
 	padding-left: 180px;
 	padding-right: 180px;
 }
-/*
-.welcome_1 img {
-	margin-left: 40px;
-}
-*/
+
 .teaching_series{
 	padding: 50px 120px 50px 120px;
 	/*background: rgba(230,208,255, 0.2);*/
@@ -430,13 +355,6 @@ ol.carousel-indicators li:hover {
 	font-weight: 300;
 }
 
-/*
-.teaching_series_head {
-	font-size: 28px;
-	font-weight: 300;
-	padding-bottom: 30px;
-}
-*/
 .teaching_series img {
 	width: 800px;
 	height: auto;
@@ -461,8 +379,6 @@ ol.carousel-indicators li:hover {
 	letter-spacing: 1px;
 }
 
-
-
 .new_app {
 	padding-top: 60px;
 	padding-bottom: 80px;
@@ -479,7 +395,6 @@ ol.carousel-indicators li:hover {
 .new_app .col_2{
 	padding-top: 80px;
 }
-
 
 .new_app .btn-outline, .button_options .btn-outline, .statement_whole button{
 	border:solid 3px rgb(128,0,128);
@@ -653,11 +568,6 @@ padding-bottom: 25px;
     background-size: cover;
 }
 
-/*
-.mission {
-	background-color: rgb(128,0,128);
-}
-*/
 
 .mission_statement {
 	/*border-top: solid 5px rgb(128,0,128);
@@ -676,8 +586,6 @@ padding-bottom: 25px;
 .mission_statement p:nth-child(2){
 	font-size: 20px;
 	color: rgb(255, 255, 255);
-
-	
 }
 
 .mission_statement_2 {
@@ -722,16 +630,9 @@ padding-bottom: 25px;
 }
 
 .line {
-	/*width: 10%;*/
 	margin-top: 60px;
 	margin-right: 60px;
 	margin-left: 60px;
-	/*height: 10px;
-	margin-left: auto;
-	margin-right: auto;
-	background-color:rgb(88,55,89);*/
-	/*color:rgb(88,55,89);*/
-	/*border: 0 none;*/
 }
 
 .mission_statement_para p {
@@ -758,17 +659,14 @@ padding-bottom: 25px;
 
 /*-----VISION-----*/
 
-
 .mission, .vision {
 	margin-top: 40px;
 	padding-bottom: 20px;
-	/*background: rgb(88,55,89);*/
 }
 
 .vision_background{
 	background: url('https://i.imgur.com/mDN7dP8.jpg') 50% 0 no-repeat;
  	background-size: cover;
- 	
 }
 
 .vision_background ul{
@@ -809,13 +707,7 @@ padding-bottom: 25px;
 }
 
 .underline {
-	/*width: 10%;*/
 	height: 10px;
-	/*margin-left: auto;
-	margin-right: auto;
-	background-color:rgb(88,55,89);*/
-	/*color:rgb(88,55,89);*/
-	/*border: 0 none;*/
 }
 
 .join_min_sub_head {
@@ -1046,6 +938,9 @@ footer p span a {
 	color: white;
 }
 
+
+
+
 /*--*************************
           BELIEF PAGE
 **************************--*/
@@ -1108,9 +1003,6 @@ font-weight: 300;
 
 .baptism {
 	padding-bottom: 100px;
-	/*background: url('../img/baptism_background.jpg') 50% 0 no-repeat;
- 	background-size: cover;
- 	*/
 }
 
 .baptism .about_baptism, .baptism .baptism_vids{
@@ -1120,11 +1012,6 @@ font-weight: 300;
 	padding-left: 50px;
 	padding-right: 50px;
 }
-/*
-.about_baptism p:first-child {
-	color: rgb(255, 255, 255);
-}
-*/
 
 .about_baptism p:nth-child(2), .about_baptism p:nth-child(4), .baptism_vids p:nth-child(2), .baptism_vids p:nth-child(5) {
 	font-weight: 300;
@@ -1144,13 +1031,6 @@ font-weight: 300;
 }
 
 
-/*
-.statement_whole button {
-	border: none;
-	font-size: 26px;
-	color: purple;
-}
-*/
 
 
 /*************************
@@ -1170,15 +1050,7 @@ font-weight: 300;
 		font-size: 14px;
 		margin-left: 0px;
 	}
-	/*
-	.welcome_1 h3 {
-		margin-left: 20px;
-	}
-	.welcome_1 img {
-	margin-top: 140px;
-	margin-left: 60px;
-	}
-*/
+
 	.first {
 		padding-left: 70px;
 	}
