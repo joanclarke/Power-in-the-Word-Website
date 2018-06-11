@@ -263,7 +263,7 @@ ol.carousel-indicators {
 ol.carousel-indicators li{
   	float: left;
   	/*width: auto;*/
-  	width: 3% !important;
+  	width: 1% !important;
   	height: 30px;
 	border: solid 1px white !important;
 	background-color: transparent;
