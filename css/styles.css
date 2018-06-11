@@ -150,6 +150,18 @@ flex-direction: initial;
 	font-family: 'Great Vibes', cursive;
 	}
 
+.join.togetherness {
+	margin-top: -10px;
+}
+
+.join span{
+	padding-bottom: 60px;
+	font-size: 55px;
+	font-family: 'Times';
+	font-weight: 100;
+	}
+
+
 .carousel-caption .power, .carousel-caption .together, .carousel-caption .prayer{
 	font-size: 60px;
 	width: 105%;
@@ -221,6 +233,17 @@ carousel-caption p a:hover {
     min-height: 500px;
 }
 
+.dark_background {
+	height: 250px;
+	background-color: rgba(0,0,0,0.05);
+	/* Safari 3-4, iOS 1-3.2, Android 1.6- */
+  	-webkit-border-radius: 50%;
+  	/* Firefox 1-3.6 */
+  	-moz-border-radius: 50%;
+  	/* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+  	border-radius: 50%;
+}
+
 .carousel .change_size img{
 	height: 500px;
 	max-height: 500px;
@@ -236,12 +259,11 @@ ol.carousel-indicators {
 	width: auto;
 }
 
-
 /* The indicators - changes shape to bullets/dots */
 ol.carousel-indicators li{
   	float: left;
   	/*width: auto;*/
-  	width: 2% !important;
+  	width: 3% !important;
   	height: 30px;
 	border: solid 1px white !important;
 	background-color: transparent;
@@ -997,6 +1019,7 @@ font-weight: 300;
 }
 
 .water_baptism {
+	/*background: #8a3ab9;*/
 	background: rgb(130,10,130);
 }
 
