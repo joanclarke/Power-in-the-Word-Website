@@ -54,70 +54,6 @@
 </head>
 <body>
 
-<!--OLD Menu-->
-<!--
-<nav class="navbar navbar-3 navbar-dark sticky-top small-navbar all-options-navbar">
-
-
-<div class="navbar-expand-lg short-menu" id="navbarSupportedContent">
-    <ul class="navbar-nav mx-auto">
-      <li class="nav-item">
-        <a class="nav-link text-uppercase" href="./index.html">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link text-uppercase" href="./about_us.html">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-uppercase" href="#">Give</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-uppercase" href="#">Login</a>
-      </li>
-     
-    </ul>
-    
-  </div>
-
-
-  <a class="navbar-brand church-navbar-brand" href="./index.html">Power In The Word Ministry</a>
-
-
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-
-  <div class="collapse navbar-collapse hamburger_menu mx-auto" id="navbarSupportedContent">
-    <ul class="nav navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link text-uppercase" href="./index.html">Sermons <span class="sr-only">(current)</span></a>
-      </li>
-      
-      <li class="nav-item">
-        <a class="nav-link text-uppercase" href="#">Sermons</a>
-      </li>
-    <li class="nav-item">
-        <a class="nav-link text-uppercase" href="#">Beliefs</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-uppercase" href="#">Stories</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-uppercase" href="#">Connect</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-uppercase" href="#">Events</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-uppercase" href="./contact.html">Contacts</a>
-      </li>
-    </ul>
-    
-  </div>
-</nav>
--->
-
-
 <!--Navigation Bar-->
 	<nav class="navbar navbar-expand-lg navbar-dark small-navbar fixed-top">
 	  <a class="navbar-brand" href="./index.html">Power In The Word Ministry</a>
@@ -130,27 +66,27 @@
 	      <li class="nav-item">
 	        <a class="nav-link text-uppercase" href="./index.html">Home <span class="sr-only">(current)</span></a>
 	      </li>
-	      <li class="nav-item active">
+	      <li class="nav-item">
 	        <a class="nav-link text-uppercase" href="./about_us.html">About</a>
 	      </li>
 
 <!--additional navigation items-->
 	      <li class="nav-item">
-	        <a class="nav-link text-uppercase" href="#">Sermons <span class="sr-only">(current)</span></a>
+	        <a class="nav-link text-uppercase" href="./sermons.html">Sermons <span class="sr-only">(current)</span></a>
 	      </li>
 	      <li class="nav-item">
 	        <a class="nav-link text-uppercase" href="./belief.html">Beliefs</a>
 	      </li>
-	      <li class="nav-item dropdown text-uppercase">
+	      <li class="nav-item dropdown text-uppercase active">
 	        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 	          Watch & Read
 	        </a>
 	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-	          	<a class="dropdown-item" href="./watchandread.html">Watch & Read</a>
-			    <a class="dropdown-item" href="#">Sermons</a>
-			    <a class="dropdown-item" href="#">Articles</a>
-			    <a class="dropdown-item" href="#">Devotionals</a>
-			    <a class="dropdown-item" href="#">Studies</a>
+	          	<a class="dropdown-item" href="./watchandread.html"">Watch & Read</a>
+			    <a class="dropdown-item" href="./sermons.html">Sermons</a>
+			    <a class="dropdown-item" href="./articles.html">Articles</a>
+			    <a class="dropdown-item" href="./devotionals.html">Devotionals</a>
+			    <a class="dropdown-item" href="./studies.html">Studies</a>
 			    <a class="dropdown-item" href="./stories.html">Stories</a>
 	        </div>
 	      </li>
@@ -188,21 +124,27 @@
 
 	<!--End of Navigation Section-->
 
-
-<!-- About section -->
-
-	<section class="about_page">
+<!--  Watch & Read section -->
+	<section class="watch_read">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-12 about_background top_image_setting">
-					<p class="text-center text-capitalize">About Us</p>
+				<div class="col-12 watch_read_background top_image_setting">
+					<p class="text-center text-capitalize">Watch & Read</p>
 				</div>
 			</div>
 		</div>
 	</section>
+	<section id="about_watch_read">
+		<div class="container-fluid">
+			<div class="row">
+				<p class="text-center">Watch sermons and keep up with church news. Read simple, practical devotionals, and browse articles and stories about following Jesus in everyday life.</p>
+			</div>
+		</div>
+	</section>
+	<!--  End of Watch & Read section -->
 
 	<!--Large social media links-->
-	<section class="social_links_big">
+	<section class=" social_links_big">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-12">
@@ -218,168 +160,267 @@
 		</div>
 	</section>
 
-	<!--About Us-->
-	<section class="about_story">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-12">         		           	
-							
-					<p>We began as Power In The Word Ministries (PWM) on December 7, 1986 with fifteen persons, including six children. The Lord has subsequently added to us to where we are today.</p>
-					
-					<p>Power In The Word Ministries is an independent, non-denominational church persuaded that God’s will must be done God’s way. Hence, we are committed to the integrity of God’s Word and so seek biblical support for our actions. We allow the Holy Spirit to direct all aspects of church life.</p>
-					
-					<p>It is the desire of PWM to develop a mature spiritual environment that will allow the Holy Spirit to minister to the body as He chooses in an atmosphere of deep and genuine fellowship with God and one another.</p>
-					
-					<p>It is our intention to fill the world with the Gospel of Jesus Christ, beginning with Jamaica. We expect to see associated PWM established as directed by the Holy Spirit within the nation and overseas. PWM is growing and we anticipate seeing continuous and rapid growth in the days ahead as together we build the vision to the glory of God.</p>
-				</div>
-			</div>
-		</div>
-	</section>
+	<!--  Sermons section -->
 
-
-	<!--Notes Section-->
-	<section class="notes_sections core_values">
+	<section id="sermons_snippet" class="watch_read_sections">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-12">
-				<p class="large_fonts_white text-capitalize">Our Core Values</p>
-				<p>Power In The Word Ministries exists to help broken people know God, find freedom, discover their purpose, and make a difference for God’s glory!</p>
-			</div>
-			</div>
-		</div>
-	</section>
-
-	<!--Mission-->
-	<section class="mission_vision" id="mission">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="w-100 mission">
-					<p class="section_head text-uppercase text-center">Our Mission</p>
+					<p class="watch_read_headings">Sermons</p>
+					<a href="./sermons.html" class="watch top_option_watch">View More Sermon  &nbsp;></a>
 				</div>
-				<div class="col-12 mission_statement_2">
-					<p>Power In The Word Ministries strive to build a people to become disciple makers and nation changers, taking their place in national life, serving and influencing society for righteousness, truth and justice.</p>
-					<p>We exists to help broken people know God, find freedom, discover their purpose, and make a difference for God’s glory</p>
-					<p>We do this in four primary ways:</p>
-					<ul>
-						<li>We help people know God primarily through our weekend worship experience.</li>
-						<li>We help people find freedom by being part of a small group.</li>
-						<li>We help people discover their purpose through what we call Growth Track.</li>
-						<li>We help people make a difference by serving our community and our world together.</li>
-					</ul>
-				</div>
-				<div class=" col-12 mission_statement">
-					
-					<p class="section_head text-center text-capitalize">United we stand</p>
-					<p class="text-center">Building God's Kingdom, Connecting people to Jesus, Connecting people to each other</p>
-				</div>
-				
-				<div class=" col-12 text-justify mission_statement_para">
-					<p class="about_story"><img src="https://i.imgur.com/1Iq6Bun.jpg" alt="image of starting point" style="float: left;">If you’re new to Power in the Word or just want to learn more about who we are and what we believe, join us for Starting Point. No matter your previous church experience,this class is the best place to begin. You’ll learn more about Jesus, the Bible, and who we are as a church. If you can’t make it to Starting Point in person, you’ll find content from the class below so you can still participate online.</p>
-					<center><a class="btn btn-outline-secondary" href="#" role="button">Find and register for upcoming <strong>Starting Point</strong> classes here.</a></center>
-				
-					<!--<hr class="line">-->
-
-				</div>
-			</div>
-
-			<!--Vision-->
-			<div class="row bg-faded" id="vision">
-				<div class="w-100 col-12 vision">
-					<p class="text-uppercase section_head text-center">Our Vision</p>
-				</div>
-				<div class="vision_background">
-					<ul class="col-12 col-md-6 offset-md-6 text-justify">
-						<li>To develop a transformed community of people from every standpoint – spiritual, economic, social and so on – as a practical demonstration of the Kingdom of God at work.</li>
-						<li>To develop a mature spiritual environment that will allow the Holy Spirit to minister to the body as He chooses, in an atmosphere of deep and genuine fellowship with God and one another.</li>
-						<li>To train men and women for effective ministry through a Bible Study Programme.</li>
-						<li>To have a strong programme of training and development for our children and young people. Therefore we will be involved in formal education (nursery, preparatory school, evening studies, etc.).</li>
-						<li>To fill the nations with the gospel of Jesus Christ, beginning with Jamaica. To see associated fellowships established as directed by the Holy Spirit.</li>
-						<li>To create a fellowship centered on the concept of family, hence the need to produce an effective small group culture, prayer culture and service culture.</li>
-						<li>To invest and be involved in business for the benefit of our members. We believe that God wants us to prosper and be successful in every area. We will develop programmes and initiatives that promote savings and wealth creation.</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="bible_quote">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-12">
-					<p class="text-center">This is my commandment, That ye love one another, as I have loved you. Greater love hath no man than this, that a man lay down his life for his friends. Ye are my friends, if ye do whatsoever I command you.</br><span class="text-uppercase"><strong>John 15:12-14 (KJV)</strong></span></p>
-				</div>
-			</div>
-		</div>
-	</section>
-
-<!--Join a Ministry Section-->
-
-	<section class="join_min">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-12">
-					<p class="text-center text-uppercase join_min_head">Get connected. Join a Ministry.</p>
-					<hr class="underline">
-					<p class="text-center join_min_sub_head">Opportunities to serve</p>
-				</div>
-				<div class="offset-md-2 col-md-4 ministries">
-					<div class="row">
-						<div class="col-md-5">
-							<a href="#" target="_blank"><img src="img/care_min.png" class="img-fluid"></a>
-						</div>
-						<div class="col-md-7 about_min">
-							<p class="title">Care Ministry</p>
-							<p>Offers different levels of care in Counselling, Support, Mentorship and disability.</p>
-						</div>
-
-						<div class="col-md-5">
-							<a href="#" target="_blank"><img src="img/children_min.png" class="img-fluid"></a>
-						</div>
-						<div class="col-md-7 about_min">
-							<p class="title">Children Ministry</p>
-							<p>Our programs meet kids right where they are and help them to discover God and His Word on their own level.</p>
-						</div>
-
-						<div class="col-md-5">
-							<a href="#" target="_blank"><img src="img/missions_min.png" class="img-fluid"></a>
-						</div>
-						<div class="col-md-7 about_min">
-							<p class="title">Missions Ministry</p>
-							<p>No matter who you are, there is a way for you to get involved in missions.</p>
+				<div class="row">
+				<!--1st column-->
+					<div class=" watch_read_cols rounded col-sm-6 col-md-4">
+						<img src="https://i.imgur.com/23UgFB5.jpg" >
+						<div class="watch_read_body">
+							<p class="text-left">Crazy Love is God Love</p>
+							<p>September 2, 2018</p>
+							<p>God really does love you. He made you and believes in you. He’s for you. He's your protector...</p>
+							<a href="#" class="watch">Watch Sermon  &nbsp;></a>
 						</div>
 					</div>
-				</div>
-				<div class="col-md-4 ministries">
-					<div class="row">
-						<div class="col-md-5">
-							<a href="#" target="_blank"><img src="img/family_min.jpg" class="img-fluid"></a>
-						</div>
-						<div class="col-md-7 about_min">
-							<p class="title">Family Ministry</p>
-							<p>Preparing individuals to effectively manage relationships.</p>
-						</div>
 
-						<div class="col-md-5">
-							<a href="#"><img src="img/sports_fit_min.png" class="img-fluid"></a>
+					<!--2nd column-->
+					<div class=" watch_read_cols rounded col-sm-6 col-md-4">
+						<img src="https://i.imgur.com/nkFcFTE.jpg" >
+						<div class="watch_read_body">
+							<p class="text-left">The Faith Walk</p>
+							<p>August 26, 2018</p>
+							<p>Walking by faith and not by sight requires you to go to a place you do not know, one that...</p>
+							<a href="#" class="watch">Watch Sermon  &nbsp;></a>
 						</div>
-						<div class="col-md-7 about_min">
-							<p class="title">Sports & Fitness Ministry</p>
-							<p>Connect to others within the PWM community through Sports & Fitness.</p>
-						</div>
+					</div>
 
-						<div class="col-md-5 youth">
-							<a href="#" ><img src="img/youth_min.png" class="img-fluid"></a>
-						</div>
-						<div class="col-md-7 about_min about_youth">
-							<p class="title">Youth Ministry</p>
-							<p>Individuals experiencing God’s healing and freedom.</p>
+					<!--3rd column-->
+					<div class=" watch_read_cols rounded col-sm-6 col-md-4">
+						<img src="https://i.imgur.com/Ycr4pUs.jpg"  >
+						<div class="watch_read_body">
+							<p class="text-left">My Identity</p>
+							<p>August 19, 2018</p>
+							<p>One day a young eagle fell off the nest and was picked up by a farmer. The farmer was kind enough to ...</p>
+							<a href="#" class="watch">Watch Sermon  &nbsp;></a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+	<!--  End of Sermons section -->
 
+	<!--  Articles section -->
+
+	<section id="articles" class=" articles watch_read_sections">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12">
+					<p class="watch_read_headings">Articles</p>
+					<a href="#" class="watch top_option_watch">View More Articles  &nbsp;></a>
+				</div>
+				<div class="row">
+					<!--1st column-->
+					<div class=" watch_read_cols rounded col-sm-6 col-md-4">
+						<img src="https://i.imgur.com/XD2mZ7A.jpg"  >
+						<div class="watch_read_body">
+							<p class="text-left">God Favours Me</p>
+							<p>August 26, 2018</p>
+							<p>When God has selected you, it doesn’t matter who else has rejected you, or neglected you. God’s favor...</p>
+							<a href="#" class="watch">Read Article  &nbsp;></a>
+						</div>
+					</div>
+
+					<!--2nd column-->
+					<div class=" watch_read_cols rounded col-sm-6 col-md-4">
+						<img src="https://i.imgur.com/SRfC8EZ.jpg"  >
+						<div class="watch_read_body">
+							<p class="text-left">God of Abundance</p>
+							<p>July 17, 2018</p>
+							<p>We serve a God who is often referred to the one who meets all our needs. That is true. But actually...</p>
+							<a href="#" class="watch">Read Article  &nbsp;></a>
+						</div>
+					</div>
+
+					<!--3rd column-->
+					<div class=" watch_read_cols rounded col-sm-6 col-md-4">
+						<img src="https://i.imgur.com/Bzd0GnT.jpg"  >
+						<div class="watch_read_body">
+							<p class="text-left">Our Daily Bread</p>
+							<p>July 1, 2018</p>
+							<p>Jesus teaches us to pray that God would give us daily bread (Matthew 6:11). Obviously Jesus was...</p>
+							<a href="#" class="watch">Read Article  &nbsp;></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--  End of Articles section -->
+
+	<!--  Daily Devotionals section -->
+	<section id="devotionals" class="devotionals watch_read_sections">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12">
+					<p class="watch_read_headings">Daily Devotionals</p>
+					<a href="#" class="watch top_option_watch">View More Devotionals  &nbsp;></a>
+				</div>
+				<div class="row devotionals_info">
+					<div class="col-sm-4 devotionals_img">
+						<center><img src="https://i.imgur.com/6gvRgC3.jpg"></center>
+					</div>
+					<div class="col-sm-8 dev_sentence">
+						<div class="dev_container"><p class="text-uppercase">Today's Devotional</p>
+						</div>
+						<p class="text-left">A Prayer to Point Us Home</p>
+						<p class="text-left">One of the first prayers I learned as a little boy was “Now I lay me down to sleep, I pray the Lord my soul to keep . . .” It was a prayer I learned from my parents, and I taught. . .</p>
+
+						<a href="https://odb.org/" target="_blank" class="watch">Read Article  &nbsp;></a>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--  End of Daily Devotionals section -->
+
+	<!--  Studies section -->
+
+	<section  id="studies" class="studies articles watch_read_sections">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12">
+					<p class="watch_read_headings">Studies</p>
+					<a href="#" class="watch top_option_watch">View More Studies  &nbsp;></a>
+				</div>
+				<div class="row">
+					<!--1st column-->
+					<div class=" watch_read_cols rounded col-sm-6 col-md-4">
+						<img src="https://d626yq9e83zk1.cloudfront.net/files/2018/08/02-770x425.jpg"  >
+						<div class="watch_read_body">
+							<p class="text-left">Healing Flood: Day Devotional</p>
+							<p>He turned the desert into pools of water and the parched ground into flowing springs. <span style="color: rgb(104, 21, 41);"><em>Psalm 107:35</em></span>...</p>
+							<a href="https://odb.org/2018/08/02/healing-flood/" target="_blank" class="watch">Read Study  &nbsp;></a>
+						</div>
+					</div>
+
+					<!--2nd column-->
+					<div class=" watch_read_cols rounded col-sm-6 col-md-4">
+						<img src="http://soakinguptheson.com/wp-content/uploads/2016/01/focus-on-God.jpg"  >
+						<div class="watch_read_body">
+							<p class="text-left">Centering On Jesus: 7-Day Devotional Series</p>
+							<p>We have a theory about the best way to approach your daily life. It's not a diet and fitness program...</p>
+							<a href="https://www.mylifetree.com/7-day-devotional-series/" target="_blank" class="watch">Read Study  &nbsp;></a>
+						</div>
+					</div>
+
+					<!--3rd column-->
+					<div class=" watch_read_cols rounded col-sm-6 col-md-4">
+						<img src="https://www.wishesmsg.com/wp-content/uploads/quotes-about-being-strong-and-stay-strong-messages.jpg"  >
+						<div class="watch_read_body">
+							<p class="text-left">Man Up: A 28 Day Devotional</p>
+							<p>Every day is a chance to build your family, community, and church to prepare for the spiritual battle that...</p>
+							<a href="https://www.bible.com/reading-plans/582-man-up" target="_blank" class="watch">Read Study  &nbsp;></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--  End of Sudies section -->
+
+
+	<!--  Stories section -->
+
+	<section id="stories_snippets" class=" stories watch_read_sections">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12">
+					<p class="watch_read_headings">Stories</p>
+					<a href="./stories.html" class="watch top_option_watch">View More Stories  &nbsp;></a>
+				</div>
+				<div class="row">
+				<!--1st column-->
+					<div class=" watch_read_cols rounded col-sm-6 col-md-4">
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3rCHx5xCNaCXESx9UG7RZ4Ai6Ii3YQKiisNq40VUe8CnQ05bj" >
+						<div class="watch_read_body">
+							<p class="text-left">A Texas Angel: A Christmas Story</p>
+			
+							<p>All I really wanted for Christmas was to do something to support our troops. I prayed on this goal daily until I...</p>
+							<a href="http://www.inspire21.com/stories/faithstories/ATexasAngel" class="watch">Read Story  &nbsp;></a>
+						</div>
+					</div>
+
+					<!--2nd column-->
+					<div class=" watch_read_cols rounded col-sm-6 col-md-4">
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMxGIwxHfICr4PZVXwnVHF0MhCXhPx1r5dKRSq8xVgC_HXoBRpMQ" >
+						<div class="watch_read_body">
+							<p class="text-left">How ABC's Lindsey Davis Overcame Anxiety</p>
+							<p>She was a TV journalist with a new baby and a happy marriage, but she struggled with anxiety after being...</p>
+							<a href="https://www.guideposts.org/inspiration/inspiring-stories/stories-of-faith/how-abc-s-linsey-davis-overcame-anxiety" class="watch">Read Story  &nbsp;></a>
+						</div>
+					</div>
+
+					<!--3rd column-->
+					<div class=" watch_read_cols rounded col-sm-6 col-md-4">
+						<img src="https://www.guideposts.org/sites/guideposts.org/files/styles/hp_content_feed_promoted_large/public/blog_post/opening_a_present.jpg"  >
+						<div class="watch_read_body">
+							<p class="text-left">Why The Wait Is Worth It: A Story of Faith</p>
+							<p>Don’t rush God when you’re impatient for something to happen. His timing is always perfect...</p>
+							<a href="https://www.guideposts.org/friends-and-family/family/grandchildren/why-the-wait-is-worth-it" class="watch">Read Story  &nbsp;></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--  End of Stories section -->
+
+	<!--  Subscribe section -->
+
+	<section class="subscribe">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12">
+					<p class="text-center watch_read_headings">Sign Up for Updates</p>
+				<p class="sentence">Do you want to recieve insightful articles, sermons and stories in your inbox?</p>
+
+				<a class=" flex-button btn btn-outline my-2 my-sm-0 btn-lg text-uppercase all_buttons" href="#" role="button">Subscribe Now</a>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--  End of Subscribe section -->
+
+	<!--  Network section -->
+	<section class="pwm_network">
+		<div class="container-fluid">
+			<div class="row first_row">
+				<div class="col-sm-6 watch_photo_bg_1">
+					<!--<img src="https://i.imgur.com/0hlPUAw.jpg">-->
+				</div>
+				<div class="col-sm-6">
+					<p class="text-center watch_read_headings">Power Network</p>
+					<p class="sentence">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dictum pretium maximus. Donec accumsan consequat pulvinar.</p>
+					</br>
+					<a href="#" class="watch">Learn More  &nbsp;></a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<p class="text-center watch_read_headings">Power In The Word Generations</p>
+					<p class="network_sentence">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dictum pretium maximus. Donec accumsan consequat pulvinar.</p>
+					<a href="#" class="watch">Learn More  &nbsp;></a>
+				</div>
+				<div class="col-sm-6 watch_photo_bg_2">
+					<!--<img src="https://i.imgur.com/cgw8bRJ.jpg">-->
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--  End of Network section -->
+	
 	<!--Information section-->
 
 		<!--Information section-->
