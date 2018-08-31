@@ -1327,15 +1327,27 @@ a.watch:hover{
 }
 
 .church_connect .watch_photo_bg_2 {
-	background: url('http://truelifemin.org/wp-content/uploads/2015/04/Bible-Study-Group-Church-Stock-Photos.jpg') 50% 0 no-repeat;
-	background-size: cover;
+    background: url(http://truelifemin.org/wp-content/uploads/2015/04/Bible-Study-Group-Church-Stock-Photos.jpg) 50% 0 no-repeat;
+    background-size: cover;
 }
 
 .watch_photo_bg_1 {
-	background: url('http://s3.amazonaws.com/Website_Properties/news-media/images/ethnic-groups-offer-ideas-vital-church-2.jpg') 50% 0 no-repeat;
+	background: url('https://terracelanes.net/portals/0/Images/churchgroup.jpg') 50% 0 no-repeat;
   	background-size: cover;
 
 }
+
+.watch_photo_bg_3 {
+    background: url(http://s3.amazonaws.com/Website_Properties/news-media/images/ethnic-groups-offer-ideas-vital-church-2.jpg) 50% 0 no-repeat;
+    background-size: cover;
+}
+
+/*
+section.pwm_network .watch_photo_bg_1 {
+    background: url(http://s3.amazonaws.com/Website_Properties/news-media/images/ethnic-groups-offer-ideas-vital-church-2.jpg) 50% 0 no-repeat;
+    background-size: cover;
+}
+*/
 
 .watch_photo_bg_2 {
 	background: url('https://i.imgur.com/cgw8bRJ.jpg') 50% 0 no-repeat;
@@ -1374,7 +1386,7 @@ section.subscribe p.sentence {
 	font-size: : 24px;
 }
 
-section.subscribe a, div.articles_mid_section a{
+section.subscribe a, div.articles_mid_section a, section#study_group a{
 	text-decoration: none;
 	color: rgb(255,255,255);
 	border: 1px solid rgb(255,255,255);
@@ -1382,7 +1394,7 @@ section.subscribe a, div.articles_mid_section a{
 	padding: 18px 50px 18px 50px;
 }
 
-section.subscribe a:hover, div.articles_mid_section a:hover {
+section.subscribe a:hover, div.articles_mid_section a:hover, section#study_group a:hover {
 	color: rgb(40,1,10);
 	background-color: rgb(255,255,255);
 }
@@ -1427,15 +1439,15 @@ section.devotionals .devotionals_img img {
 	margin-top: 60px;
 }
 
-section.studies {
+section#studies_snippet {
 	background-color: rgb(104, 21, 41);
 }
 
-section.studies .top_option_watch {
+section#studies_snippet .top_option_watch {
 	color: rgb(255,255,255);
 }
 
-section.studies .watch_read_body p:nth-child(2), section.stories .watch_read_body p:nth-child(2){
+section#studies_snippet .watch_read_body p:nth-child(2), section.stories .watch_read_body p:nth-child(2){
 	font-size: 20px;
 	font-weight: 300;
 }
@@ -1454,17 +1466,25 @@ section.stories_section .row{
 
 section#stories_section_about.about_stories {
 	padding: 100px 50px;
-	background: url('http://www.psycholocrazy.com/wp-content/uploads/2015/01/Recovered-Autosave-002.jpg') 50% 0 no-repeat;
+	background: url('http://1t8r984d8wic2jedckksuin1.wpengine.netdna-cdn.com/wp-content/uploads/2017/03/BK100-Cover_3-1.jpg') 50% 0 no-repeat;
 	background-size: cover;
 }
 
-section#stories_section_about.about_stories p, section#sermons_section.about_stories p {
+
+section#stories_section_about.about_stories p {
+	background-color: rgba(0,0,0,0.5);
+}
+
+/*
+
+section#sermons_section.about_stories p {
 	color: rgb(255,255,255);
 	font-size: 35px;
 	font-weight: 900;
 	letter-spacing: 1px;
 	text-shadow: 0 5px 2px rgba(0, 0, 0, 0.5);
 }
+*/
 
 section.subscribe.share_stories p:nth-child(2){
 	font-size: 22px;
@@ -1514,14 +1534,14 @@ section#articles_section.about_stories {
 	background-color: rgb(28,28,28);
 }
 
-section#articles_section.about_stories p{
+section#articles_section.about_stories p, section#stories_section_about.about_stories p, section#sermons_section.about_stories p{
 	color: rgb(255,255,255);
 	font-size: 35px;
 	border-bottom: 5px solid rgb(255,255,255);
 	padding: 50px;
 }
 
-section#articles_section.about_stories p span{
+section#articles_section.about_stories p span, section#about_studies.about_stories p span, section#sermons_section.about_stories p span{
 	font-size: 20px;
 	font-weight: 100;
 }
@@ -1572,6 +1592,100 @@ hr.line {
 	background-color: rgb(255,255,255);
 	height: 5px;
 }
+
+section.about_studies {
+	background-color: rgb(104, 21, 41);
+}
+
+section#studies_section {
+	/*background-color: rgb(104, 21, 41);*/
+	background-color: rgb(28, 28, 28);
+	background-color: rgb(232,232,232);
+}
+
+section#studies.watch_read .watch_read_background {
+	/*background-color: rgb(246,246,246);*/
+	background-color: rgb(149,82,81);
+}
+
+
+section#studies.watch_read .watch_read_background p{
+	color: rgb(246,246,246);
+}
+
+
+section#about_studies.about_stories {
+	background-color: rgb(238,238,238);
+	/*background-color: rgb(202,202,202);*/
+}
+
+section#about_studies.about_stories p{
+	color: rgb(28,28,28);
+	font-size: 35px;
+	border-bottom: 5px solid rgb(255,255,255);
+	padding: 50px;
+}
+
+section#about_studies.about_stories p a{
+	color: rgb(104, 21, 41);
+}
+
+
+section#study_group {
+	background: url('https://cpcedison.org/wp-content/uploads/2017/02/bible-study-cal.jpg') 50% 0 no-repeat;
+	background-size: cover;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+section#study_group p{
+	font-size: 70px;
+	font-weight: 900;
+	letter-spacing: 1px;
+	color: rgb(246,246,246);
+
+}
+
+section#study_group p.small_text{
+	font-size: 30px;
+	font-weight: 500;
+	color: rgb(104, 21, 41);
+}
+
+section#study_group a {
+	display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid rgb(255,255,255);
+}
+/*
+section#current_series_study{
+		background-color: rgb(104,21,41);
+		color: rgb(246,246,246);
+}
+
+section#current_series_study p{
+		color: rgb(28,28,28);
+}
+
+section#current_series_study .teaching_note {
+	padding: 0px 50px;
+}
+
+section#current_series_study .col-12{
+	border-radius: 100%;
+	width: 100%;
+	height: auto;
+	background-color: rgb(246,246,246);
+	padding: 120px;
+}
+
+section#current_series_study img {
+	width: 80%;
+}
+
+*/
 
 /*
 background-color: rgb(149,82,81);
@@ -2393,9 +2507,28 @@ https://static.wixstatic.com/media/cc8977110b194405a07d99a935f3e160.jpg/v1/crop/
 http://www.psycholocrazy.com/wp-content/uploads/2015/01/Recovered-Autosave-002.jpg
 https://media.swncdn.com/cms/CW/faith/39920-preaching-1200.jpg
 http://s3.amazonaws.com/Website_Properties/news-media/images/ethnic-groups-offer-ideas-vital-church-2.jpg
-
---
+https://i.ytimg.com/vi/h-5N5sZ7IUg/maxresdefault.jpg
 https://terracelanes.net/portals/0/Images/churchgroup.jpg
+https://www.hindustantimes.com/rf/image_size_960x540/HT/p2/2017/07/14/Pictures/_23b671dc-6872-11e7-99b4-5703255acffe.jpg
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeTmT1_yqZ1kNW-sX8mZ6sW77hQxqWdyyf8T_A6Cz9EdP9MPAo
+https://img.timesnownews.com/story/1534340355-money-2724241_960_720.jpg?d=600x450
+http://apopka-1x1yusplq.stackpathdns.com/wp-content/uploads/2018/01/forgiveness.jpg
+https://www.toolshero.com/wp-content/uploads/2018/01/abcd-trust-model-toolshero-696x348.jpg
+http://2.bp.blogspot.com/-m6TMwm5Wbzc/U9ywg4BorgI/AAAAAAAAAmQ/-yk8KqEAlzI/s1600/10559833_671338839617350_2658300832278804632_n.jpg
+https://www.rightnowmedia.org/Content/Channel/789
+https://www.rightnowmedia.org/Content/illustration/193848
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZRu4nEXoOT8qzn_cvU5QowVrXIGBk0fuiClqtAki_lGap9y3fOA
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt5Ly29tNPzfb4n3vOip14ZsXwpbavOMp47e2n9wGg5qIrwulW
+
+
+Studies
+
+http://www.cfdevotionals.org/devpg08/de080218.htm
+http://www.cfdevotionals.org/links/devseris.htm#7sins
+http://www.cfdevotionals.org/links/devseris.htm#7sins
+http://www.cfdevotionals.org/links/devseris.htm#financialfreedom
+https://odb.org/2018/08/28/learning-to-trust-3/
+https://www.ourdailyjourney.org/
 
 Devotions
 https://odb.org/
@@ -2408,6 +2541,7 @@ https://img-aws.ehowcdn.com/877x500p/s3-us-west-1.amazonaws.com/contentlab.studi
 https://i.ytimg.com/vi/arYww39kD4U/maxresdefault.jpg
 http://1.bp.blogspot.com/-FTZn2kQTiQs/URS5PTmGiVI/AAAAAAAAJvA/PdZHJ_aIX6Q/s1600/does-god-exist.jpg
 https://backofthechoir.files.wordpress.com/2015/12/working-for-god.jpg
+http://1t8r984d8wic2jedckksuin1.wpengine.netdna-cdn.com/wp-content/uploads/2017/03/BK100-Cover_3-1.jpg
 
 
 Stories
