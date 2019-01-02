@@ -1692,6 +1692,75 @@ background-color: rgb(149,82,81);
 background-color: rgb(246,246,246);
 rgb(28, 28, 28)*/
 
+/***********************
+	
+	CONNECT PAGE
+***********************/
+
+/*settings are for multiple use*/
+
+.community_top_background {
+	background: url('https://images.unsplash.com/photo-1536313243724-6dc3a26bee12?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+ 	/* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.serve_background {
+	background: url('https://cdn.pixabay.com/photo/2017/09/16/01/41/poor-2754335_1280.jpg') 50% 0;
+}
+
+.community_top_background p {
+	text-shadow: 1px 1px 1px rgb(167, 162, 162);
+}
+
+.community {
+	margin-top: 50px;
+}
+
+.community_background {
+	height: 425px;
+	background: url('https://i.imgur.com/zZs60mR.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.volunteer_background {
+	height: 425px;
+	background: url('https://i.imgur.com/RWrlpaf.jpg');
+	background-size: 100% 100%;
+}
+
+.community_info h1 {
+	margin-top: 30px;
+	padding-left: 30px;
+}
+.community_info p{
+ padding: 30px;
+ font-size: 18px;
+ font-weight: 100;
+ line-height: 34px;
+}
+
+.form-section {
+margin-left: 50px;
+}
+
+.form-section form{
+	margin-left: 80px;
+}
+
+.serve_contact {
+	margin-top: 40px;
+}
+
+
+.community_quote {
+background: url('https://i.imgur.com/kxjA6iX.png') ;
+}
+
 /*************************
 		MEDIA SCREENS 
 *************************/
