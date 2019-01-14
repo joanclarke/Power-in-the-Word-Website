@@ -100,16 +100,153 @@
 	      <li class="nav-item">
 	       <a class="nav-link text-uppercase" href="./contact.html">Contact</a>
 	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link text-uppercase" href="#">Give</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link text-uppercase" href="#">Login</a>
-	      </li>
+		  <li class="nav-item give">
+			<!-- <a class="nav-link text-uppercase" href="#">Give</a> -->
+			<!-- Trigger/Open The Modal -->
+			<button class="nav-link text-uppercase" id="myBtn">Give</button>
+		  </li>
 	    </ul>
 	  </div>
 	</nav>
 	<!--End of Navigation Section-->
+
+
+		  	    <!-- The Modal -->
+				  <div id="myModal" class="modal">
+    
+					<!-- Modal content -->
+					<div class="modal-content">
+					  <div class="modal-header">
+						<span class="close">&times;</span>
+						<p class="text-uppercase"><strong>Giving</strong></p>
+					  </div>
+					  <div class="modal-body">
+						<div class="row row-content">
+							<div class="col-10 offset-1 ">
+							   
+							<!--Adding a Basic Form-->
+							   <form class="give">
+											<!--Give Type-->
+											<div class="form-group row">
+												<label for="give" class="col-12 col-form-label">Give *</label>
+												<div class="col-12 col-md-6">
+													<input type="text" class="form-control" id="give-amount" name="give-amount" placeholder="$">
+												</div>
+												<div class="col-12 col-md-6">
+												   <select class="form-control">
+														<option></option>
+														   <option>Regular Giving</option>
+														   <option>Seed Sowing</option>
+														   <option>Tithes</option>
+														   <option>Offering</option>
+														   <option>PWD Food Shelf</option>
+														   <option>Other</option>
+												   </select>
+												   </div>
+											   </div>
+											   
+											   <!--Account Type-->
+											   <div class="form-group row">
+												<label for="account" class="col-6 col-md-3 col-form-label">Account Type</label>
+												<div class="col-6 col-md-3">
+												   <select class="form-control">
+															<option></option>
+														   <option>credit/Debit Card</option>
+														   <option>Checkings</option>
+														   <option>Savings</option>
+												   </select>
+												   </div>
+													   <!--Add card expiration date-->
+												   <label for="expiration" class="col-6 col-md-3 col-form-label">Exp. Date *</label>
+												   <div class="col-3 col-md-1 col-md-1">
+													   <select class="form-control">
+															   <option></option>
+															   <option>01</option>
+															   <option>02</option>
+															   <option>03</option>
+															   <option>04</option>
+															   <option>05</option>
+															   <option>06</option>
+															   <option>07</option>
+															   <option>08</option>
+															   <option>09</option>
+															   <option>10</option>
+															   <option>11</option>
+															   <option>12</option>
+													   </select>
+													   </div>
+													   <span>/</span>
+												   <div class="col-3 col-md-1">
+													  <select class="form-control">
+															   <option></option>
+															   <option>2019</option>
+															   <option>2020</option>
+															   <option>2021</option>
+															   <option>2022</option>
+															   <option>2023</option>
+															   <option>2024</option>
+															   <option>2025</option>
+															   <option>2026</option>
+															   <option>2027</option>
+															   <option>2028</option>
+													  </select>
+													  </div>
+											   </div>
+													   <!--Add billing address-->
+													<div class="form-group row">
+															<label for="city" class="col-6 col-md-3 col-form-label">Billing Add. *</label>
+															<div class=" col-6 col-md-3">
+																<input type="text" class="form-control" id="city" name="city">
+															</div>
+			
+															<label for="city" class="col-6 col-md-3 col-form-label">Billing City *</label>
+																<div class=" col-6 col-md-3">
+																	<input type="text" class="form-control" id="city" name="city">
+																</div>
+														</div>
+			
+											<!--Add name and email-->
+											<div class="form-group row">
+													
+													<label for="name" class="col-6 col-md-3 col-form-label">Name *</label>
+													<div class="col-6 col-md-3">
+														<input type="text" class="form-control" id="name" name="name">
+													</div>
+			
+												<label for="emailid" class="col-6 col-md-3 col-form-label">Email *</label>
+													<div class=" col-6 col-md-3">
+															<input type="email" class="form-control" id="emailid" name="emailid">
+													</div>
+											</div>
+			
+											<!--Adding the Submit Button-->
+											<div class="form-group row">
+													<div class="col-md-10">
+															<button type="submit" class="btn btn-dark">
+																	Submit
+															</button>
+													</div>
+											</div>
+									</form>
+							</div>		 
+				   </div>
+			
+			
+					  </div>
+					  <div class="modal-footer">
+							<small>Here at Power In The Word Ministry we give because God first gave to us. 
+									It’s not out of duty, obligation or guilt. Our gracious 
+									God actually rejects those motives. It’s not because we 
+									have to, it’s because we get to. And in giving out of a 
+									heart of gratitude we are able, in yet one more tangible 
+									way, to be part of a mission bigger than ourselves – sharing 
+									the Hope of Jesus with a world in need of Hope</small>
+					  </div>
+					</div>
+				  
+				  </div>
+
+
 
 <!--  Stories section -->
 	<section id="sermons" class="watch_read">
