@@ -1146,11 +1146,11 @@ background-color: #c29f9f;
 	width: 120px;
 	height: auto;
 	/* Safari 3-4, iOS 1-3.2, Android 1.6- */
-  	-webkit-border-radius: 60% 60% 0 40%;
+  	/* -webkit-border-radius: 60% 60% 0 40%; */
   	/* Firefox 1-3.6 */
-  	-moz-border-radius: 60% 60% 0 40%;
+  	/* -moz-border-radius: 60% 60% 0 40%; */
   	/* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
-  	border-radius: 60% 60% 0 40%;
+  	/* border-radius: 60% 60% 0 40%; */
 }
 
 .small_sections_links li, .info li, .beliefs li{
@@ -1177,6 +1177,7 @@ background-color: #c29f9f;
 .info ul .active {
 	color: white;
 }
+
 .visit_location {
 	padding-bottom: 50px;
 }
@@ -1185,8 +1186,7 @@ background-color: #c29f9f;
 	display: inline-block;
 	padding: 3px 5px 3px 5px;
 	margin-left: 10px;
-	background-color: grey;
-	color: white;
+	background-color: rgb(184, 146, 146);
 		/* Safari 3-4, iOS 1-3.2, Android 1.6- */
   	-webkit-border-radius: 30%;
   	/* Firefox 1-3.6 */
@@ -1195,17 +1195,32 @@ background-color: #c29f9f;
   	border-radius: 30%;
 }
 
+.visit_location li.visit {
+	background-color: transparent;
+}
+.visit_location li.visit:hover {
+	background-color: transparent;
+}
+
 .visit_location li:hover {
-	background-color: white;
-	color: grey;
+	background-color: rgb(145, 139, 139);
+}
+.visit_location li a {
+	color: rgb(255, 255, 255);
+}
+.visit_location li a:hover {
+	text-decoration: none;
+	color: #222;
 }
 
 .number {
 	font-size: 30px;
+	color: rgb(184, 146, 146);
 }
 
 .contact .address {
 	font-size: 12px;
+	color: rgb(184, 146, 146);
 }
 
 .number .fa-phone {
@@ -2036,12 +2051,6 @@ background: url('https://i.imgur.com/ap99OhB.jpg') ;
 	width: 105%;
 	margin-right: 240px;
 	}
-/*
-	form.location_form{
-	margin: 0 auto; 
-	width:100%;
-	}
-*/
 
 	.notes_sections {
 		padding: 100px;
@@ -2100,22 +2109,15 @@ background: url('https://i.imgur.com/ap99OhB.jpg') ;
 	width: 100% !important;
 }
 
-
-	.welcome_1 {
+.welcome_1 {
 		margin-left: 0;
 		margin-right: 0;
-	}
+}
 
-	p.watch_read_headings{
+p.watch_read_headings{
 		font-size: 45px;
-	}
-/*
-	.welcome_1 img {
-	margin-top: 200px;
-	margin-left: 60px;
-	}
+}
 
-*/
 .welcome_1 {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -2141,8 +2143,6 @@ background: url('https://i.imgur.com/ap99OhB.jpg') ;
 .notes_sections ul li a{
 	font-size: 15px;
 }
-
-
 
 .large_fonts_black, .large_fonts_white {
 	font-size: ;
@@ -2189,41 +2189,29 @@ background: url('https://i.imgur.com/ap99OhB.jpg') ;
 	.carousel-caption p.join, .carousel-caption p.join span {
 		font-size: 40px;
 	}
-/*
-	form.location_form{
-		margin: 0 auto; 
-		width:110%;
-		padding-bottom: 10px;
-		padding-left: 30px;
-	}
 
-	*/
-
-	.carousel-caption .together{
-		margin-top: -310px;
-		margin-bottom: 0px;
-	}
+.carousel-caption .together{
+	margin-top: -310px;
+	margin-bottom: 0px;
+}
 
 
 /*ABOUT US PAGE*/
 
-
-	.bible_quote {
+.bible_quote {
 	padding: 120px 90px 120px 90px;
 	/*background-position: 50% 90px;*/
-	}
+}
 
 
 
-	.info .social_links .fa {
+.info .social_links .fa {
 	margin-left: 5px;
 	margin-top: 30px;
 	font-size: 25px;
-	text-align: center;
-	}
+	text-align: center;	
+}
 
-
-	
 /*BELIEFS PAGE*/
 	.beliefs_head{
 		font-size: 35px;
@@ -2243,13 +2231,6 @@ background: url('https://i.imgur.com/ap99OhB.jpg') ;
 		width: 150px;
 		height: 150px;
 	}
-
-/*
-	.statement_of_faith p:first-child {
-		font-size: 24px;
-	}
-*/
-	
 }
 
 @media only screen and (max-width: 768px) {
@@ -2270,31 +2251,20 @@ background: url('https://i.imgur.com/ap99OhB.jpg') ;
 	.beliefs_statement,.beliefs_baptism{
 		margin-left: 30px;
 	}
-		/*
-.statement_of_faith p {
-	padding-left: 50px;
-	padding-right: 50px;
-	}
-	.statement_of_faith p:first-child {
-	font-size: 26px;
-	}
-*/
+
 	.carousel-caption .power, .carousel-caption .together{
 		font-size: 35px;
 	
 	}
-/*
-	form.location_form{
-		margin: 0 auto; 
-		width:110%;
-		padding-bottom: 5px;
-		padding-left: 10px;
-	}
-*/
+
 	.carousel-caption .together{
 		margin-top: -310px;
 		margin-bottom: 0px;
 	}
+
+.info .ministry {
+	margin-top: -100px;
+}
 
 }
 
@@ -2351,19 +2321,15 @@ background: url('https://i.imgur.com/ap99OhB.jpg') ;
 		font-size: 12px;
 	}
 
-	
-	.content {
+.content {
 		padding: 20px;
 		padding-top: 50px;
 		padding-bottom: 30px;
-		/* margin-left: 30px */
-		/* height: 100%; */
-	  }
+}
 	  
 	.carousel-caption .together{
 		font-size: 35px;
 	}
-
 
 	.notes_sections {
 	padding-left: 0px;
@@ -2421,23 +2387,18 @@ background: url('https://i.imgur.com/ap99OhB.jpg') ;
 	.beliefs ul li{
 		display: inline;
 	}
-	
-/*
-	.statement_of_faith p:first-child {
-	font-size: 18px;
-	}
-*/
+
 	.faith_baptism {
 	padding-top: 30px;
 	padding-bottom: 30px;
 	}
-
 
 	.carousel-caption .power, .carousel-caption .together{
 		font-size: 35px;
 		width: 120%;
 		margin-left: -50px;
 	}
+
 .carousel-caption .together{
 		margin-top: -310px;
 		margin-bottom: 0px;
@@ -2573,6 +2534,11 @@ background: url('https://i.imgur.com/ap99OhB.jpg') ;
   .carousel-caption input, .carousel-caption button {
 		padding: 12px 8px 12px 8px;
 		font-size: 16px;
+	}
+
+	.visit_location li.visit {
+		background-color: transparent;
+		display: block;
 	}
 }
 
