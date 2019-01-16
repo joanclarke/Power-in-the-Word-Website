@@ -193,8 +193,8 @@ flex-direction: initial;
 }
 
 .navbar {
-	background-color: transparent;
-	background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+	/* background-color: transparent;
+	background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%); */
 	background: #222;
 }
 
@@ -845,15 +845,27 @@ background-color: #c29f9f;
 	color: rgb(255, 255, 255);
 }
 
+.contact_page .top_image_setting p{
+	text-shadow: 2px 3px 2px rgba(95, 89, 89, 0.5);
+}
+
 
 .about_background {
 	background: url('https://i.imgur.com/aOyGh2E.jpg') 50% 0;
-
  	/* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact_background {
+	background: url('https://i.imgur.com/Bl7d9hb.jpg') 50% 0;
+ 	/* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .about_story, .faith_baptism{
@@ -1223,6 +1235,21 @@ background-color: #c29f9f;
 	color: rgb(184, 146, 146);
 }
 
+/**** MAP ****/
+
+.mapouter {
+	text-align:right;
+	height:223px;
+	width:455px;
+}
+
+.gmap_canvas {
+	overflow:hidden;
+	background:none!important;
+	height:223px;
+	width:455px;
+}
+
 .number .fa-phone {
 	color: white;
 }
@@ -1385,9 +1412,7 @@ font-weight: 300;
 }
 
 .water_baptism {
-	/*background: #8a3ab9;*/
-	background: rgb(130,10,130);
-	background: rgb(40,1,10);
+	background: #c79b9b;
 }
 
 
@@ -1559,7 +1584,6 @@ a.watch:hover{
 .church_connect .watch_photo_bg_1 {
 	background: url('http://www.northwestmilitary.com/installations/military-life/2010/07/northwest-military-ranger-airlifter-newspaper-JBLM-pierce-county-church-youth-groups/uploads/articles/10972-banner-Youth625-8-2.jpg') 50% 0 no-repeat;
   	background-size: cover;
-	  <a href="https://imgur.com/WGFsVjF"><img src="https://i.imgur.com/WGFsVjF.jpg" title="source: imgur.com" /></a>
 }
 
 .church_connect .watch_photo_bg_2 {
@@ -1605,6 +1629,16 @@ section.pwm_network .watch_read_headings {
 section.pwm_network p.sentence {
 	font-size: 22px;
 	font-weight: 300;
+}
+
+ul.ministry_list li{
+	text-decoration: none;
+	list-style: none;
+	display: inline-block;
+}
+
+ul.ministry_list li a{
+	color: #a58b8b;
 }
 
 section.subscribe {
@@ -1727,7 +1761,7 @@ section.subscribe.share_stories p:nth-child(2){
 }
 
 section#sermons.watch_read div.watch_read_background{
-	background-color: rgb(104, 21, 41);
+	background-color: #c29f9f;
 }
 
 section#sermons_section.about_stories {
@@ -1935,28 +1969,42 @@ rgb(28, 28, 28)*/
 
 /*settings are for multiple use*/
 
-.community_top_background {
-	background: url('https://images.unsplash.com/photo-1536313243724-6dc3a26bee12?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+.community_top_background, .serve_top_background {
+	background: url('https://i.imgur.com/HxPw5nM.jpg');
  	/* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 	background-size: cover;
+}
+
+
+
+.serve_top_background {
+	background: url('https://i.imgur.com/BUFs8fq.jpg');
+	background-size: 100% 150%;
 }
 
 .serve_background {
 	background: url('https://images.unsplash.com/photo-1500837744038-ec60054ed01e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80') 50% 0;
 }
 
-.community_top_background p {
+/* .community_top_background p {
 	text-shadow: 1px 1px 1px rgb(167, 162, 162);
-}
+} */
 
 .community {
 	margin-top: 50px;
 }
 
 .community_background {
+	height: 425px;
+	background: url('https://i.imgur.com/0hlPUAw.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.serve_background {
 	height: 425px;
 	background: url('https://i.imgur.com/zZs60mR.jpg');
 	background-repeat: no-repeat;
@@ -1994,10 +2042,15 @@ margin-left: 50px;
 
 
 .community_quote {
-background: url('https://i.imgur.com/ap99OhB.jpg') ;
+	background: url('https://i.imgur.com/kxjA6iX.png') ;
 }
 
-.community_quote p {
+.serve_quote {
+	background: url('https://i.imgur.com/ap99OhB.jpg') ;
+
+}
+
+.serve_quote p{
 	background-color: rgba(43, 37, 37, 0.2);
 }
 /*************************
@@ -2557,7 +2610,10 @@ p.watch_read_headings{
 	}
 	.video-container {
 		height: 400px;
+		/* background-image: url('img/pwm-background.jpg') 50% 0;
+		background-color: #222; */
 	}
+
 	.content {
 		padding-top: 110px;
 		padding-bottom: 15px;
