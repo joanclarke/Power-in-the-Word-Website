@@ -67,7 +67,6 @@ a {
 	font-weight: 100;
 }
 
-
 .big-navbar ul{
 	padding-top: 20px;
 }
@@ -234,14 +233,14 @@ flex-direction: initial;
 	border: 1px solid #888;
 	width: 60% !important;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	-webkit-animation-name: animatetop;
+	-webkit-animation-name: animateModal;
 	-webkit-animation-duration: 0.4s;
-	animation-name: animatetop;
+	animation-name: animateModal;
 	animation-duration: 0.4s;
 }
 
 /* Add Animation */
-@-webkit-keyframes animatetop {
+@-webkit-keyframes animateModal {
 	from {
 		top: -300px;
 		opacity: 0;
@@ -252,7 +251,7 @@ flex-direction: initial;
 	}
 }
 
-@keyframes animatetop {
+@keyframes animateModal {
 	from {
 		top: -300px;
 		opacity: 0;
@@ -322,7 +321,7 @@ font-size: 18px;
 	height: auto   !important;
   }
   
-  .content {
+.content {
 	position: absolute;
 	bottom: 0;
 	background: rgba(0, 0, 0, 0.5);
@@ -331,22 +330,15 @@ font-size: 18px;
 	padding: 20px;
 	padding-top: 50px;
 	padding-bottom: 140px;
-	/* margin-left: 30px */
-	/* height: 100%; */
-  }
+}
   
 
-  .content h1 {
-	  text-align: center;
-	  font-family: 'IM Fell Great Primer SC', serif;
-	  font-weight: 400;
-	  font-size:50px;
-  }
-  
-/* .content img {
-	width: 12%;
-	margin-left: 40px;
-} */
+.content h1 {
+	text-align: center;
+	font-family: 'IM Fell Great Primer SC', serif;
+	font-weight: 400;
+	font-size:50px;
+}
 
 .center {
 	display: block;
@@ -355,7 +347,6 @@ font-size: 18px;
 	width: 20%;
 	/* text-align: center; */
   }
-
 
 .worship {
 	padding: 0;
@@ -691,6 +682,7 @@ ol.carousel-indicators li:hover {
 
 .teaching_note {
 	padding-top: 50px;
+	font-size: 20px;
 }
 
 .teaching_series p a{
@@ -1468,17 +1460,6 @@ font-weight: 300;
    top: 0;
    width: 100%;
 }
-/*
-	.baptism iframe.video-3-4  {
-		width:300px;
-		 height:215px;
-	}
-
-*/
-
-
-
-
 
 /*--*************************
           WATCH & READ PAGE
@@ -1619,15 +1600,15 @@ section.pwm_network .row{
 }
 
 section.pwm_network .first_row div:nth-child(2), section.pwm_network .row div:nth-child(1){
-	padding: 170px 60px 20px 60px;
+	padding: 100px 40px 20px 40px;
 }
 /*
 section.pwm_network .watch_read_headings {
 	padding-top: 150px;
 }*/
 
-section.pwm_network p.sentence {
-	font-size: 22px;
+section.pwm_network p.sentence, p.network_sentence {
+	font-size: 20px;
 	font-weight: 300;
 }
 
@@ -1653,7 +1634,7 @@ section.subscribe p {
 }
 
 section.subscribe p.sentence {
-	font-size: : 24px;
+	font-size: 24px;
 }
 
 section.subscribe a, div.articles_mid_section a, section#study_group a{
@@ -2078,9 +2059,7 @@ margin-left: 50px;
 		padding-left: 320px;
 	}
 	.third {
-		
 		padding-left: 580px;
-		
 	}	
 
 	.ministries img {
@@ -2093,11 +2072,6 @@ margin-left: 50px;
 	position: relative;
 	margin-top: 70px;
 	}
-/*
-	.statement_of_faith p:first-child {
-		font-size: 30px;
-	}
-	*/
 
 	.carousel-caption .power, .carousel-caption .together{
 	font-size: 50px;
@@ -2114,9 +2088,12 @@ margin-left: 50px;
 	margin-right: 0px;
 	}
 
-
 	.baptism_vids p:nth-child(4){
 		padding-top: 40px;
+	}
+
+	.stories_section .row, .stories .row, .watch_read_sections .row {
+		margin-bottom: 100px !important;
 	}
 
 }
@@ -2162,6 +2139,10 @@ margin-left: 50px;
 	width: 100% !important;
 }
 
+.content img{
+	margin-bottom: -100px;
+}
+  
 .welcome_1 {
 		margin-left: 0;
 		margin-right: 0;
@@ -2183,9 +2164,10 @@ p.watch_read_headings{
 .notes_sections {
 	padding: 70px 30px 70px 30px;
 }
-.notes_sections p{
+/* .notes_sections p{
 	padding: 0px 100px 0px 100px;
-}
+} */
+
 .notes_sections ul li {
 	padding-top: 30px;
 	padding-left: 15px;
@@ -2198,7 +2180,6 @@ p.watch_read_headings{
 }
 
 .large_fonts_black, .large_fonts_white {
-	font-size: ;
 	padding-bottom: 20px;
 	font-weight: 700;
 	line-height: 70px;
@@ -2232,7 +2213,6 @@ p.watch_read_headings{
 	 	font-size: 14px;
 	}
 
-
 	.carousel-caption .power, .carousel-caption .together, .carousel-caption .prayer{
 		font-size: 40px;
 		width: 105%;
@@ -2255,8 +2235,6 @@ p.watch_read_headings{
 	padding: 120px 90px 120px 90px;
 	/*background-position: 50% 90px;*/
 }
-
-
 
 .info .social_links .fa {
 	margin-left: 5px;
@@ -2307,7 +2285,6 @@ p.watch_read_headings{
 
 	.carousel-caption .power, .carousel-caption .together{
 		font-size: 35px;
-	
 	}
 
 	.carousel-caption .together{
@@ -2315,9 +2292,20 @@ p.watch_read_headings{
 		margin-bottom: 0px;
 	}
 
-.info .ministry {
-	margin-top: -100px;
-}
+	.info .ministry {
+		margin-top: 0px;
+	}
+
+	.new_app {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+	}
+
+	.stories_section .row, .stories .row, .watch_read_sections .row {
+		margin-bottom: 200px !important;
+	}
 
 }
 
@@ -2368,7 +2356,6 @@ p.watch_read_headings{
 		margin-right: 200px;
 	}
 
-
 	div#align-buttons ul.button_options li a{
 		padding: 10px;
 		font-size: 12px;
@@ -2379,7 +2366,16 @@ p.watch_read_headings{
 		padding-top: 50px;
 		padding-bottom: 30px;
 }
-	  
+
+.content img{
+	margin-bottom: 0px;
+}
+
+.welcome_1 p {
+	margin-left: -40px;
+	margin-right: -40px;
+}
+
 	.carousel-caption .together{
 		font-size: 35px;
 	}
@@ -2393,23 +2389,59 @@ p.watch_read_headings{
 	padding: 10px;
 	}
 
+	.large_fonts_black, .large_fonts_white {
+		font-size: 42px;
+	}
+	.notes_sections p.series_topic{
+		font-size: 30px;
+		}
+
 	.new_app_img img{
 		padding-top: 100px;
 	}
 
+	.new_app {
+    padding-left: 10px;
+    padding-right: 10px;
+	}
+
+	.new_app p.new_app_head{
+		font-size: 40px;
+	}
+
+	.new_app .new_app_img {
+		margin-top: -90px
+	}
+
+	.new_app .btn-outline, .button_options .btn-outline, .statement_whole button {
+		padding: 10px 5px 10px 5px;
+		margin: 5px;
+	}
 
 	.first, .second, .third {
 		padding-left: 0px;
 		text-align: center;
 	}	
 
+	.info a img {
+		margin-top: -60px;
+	}
+
+	.info .ministry {
+    margin-top: -170px;
+}
 	/*ABOUT US PAGE*/
 
 	.top_image_setting p{
 	padding-top: 115px;
-	font-size: 50px;
+	margin-top: 40px;
+	font-size: 60px;
 	font-weight: 700;
 	color: rgb(255, 255, 255);
+}
+
+.mission_statement_2 li {
+	margin-left: -70px;
 }
 
 	.ministries {
@@ -2424,7 +2456,6 @@ p.watch_read_headings{
 		margin-left: -270px;
 		text-align: center;
 	}
-
 
 	.beliefs_head{
 	font-weight: 500;
@@ -2477,6 +2508,14 @@ p.watch_read_headings{
 	p.watch_read_headings{
 		font-size: 35px;
 	}
+
+	/* .stories_section .row , .stories .row, .watch_read_sections .row {
+		margin-bottom: 150px !important;
+	} */
+
+	.stories_section .row div:nth-child(3), .stories .row div:nth-child(3), .watch_read_sections .row div:nth-child(3) {
+		margin-top: 130px !important;
+	}
 }
 
 
@@ -2484,7 +2523,6 @@ p.watch_read_headings{
 
 	#logo-section {
 		padding-left: 25px;
-
 	}
 
 	#logo-section img{
@@ -2495,9 +2533,9 @@ p.watch_read_headings{
 		margin-left: -80px;
 	}
 	
-	  .content h1 {
-		  font-size:40px;
-	  }
+	.content h1 {
+		font-size:40px;
+	}
 	
 
   .welcome p{
@@ -2519,6 +2557,28 @@ p.watch_read_headings{
 
 	.notes_sections ul li a{
 		font-size: 12px;
+	}
+/*  */
+	/* .first_row div:nth-child(2), section.pwm_network .row div:nth-child(1) {
+    padding: 150px 0px 150px  0px ;
+	} */
+/* 
+section.pwm_network .row{
+		height: 820px;
+	}
+		 */
+	/* section.pwm_network .first_row div:nth-child(1), 
+	section.pwm_network .row div:nth-child(1){{
+		padding: 100px 40px 20px 40px;
+		padding: 150px 0px 150px  0px ;
+	}  */
+
+.watch_photo_bg_1, .watch_photo_bg_2{
+	height: 300px;
+	}
+
+ p.watch_read_heading {
+		margin-top: -100px;
 	}
 
 .new_app_img img{
@@ -2638,13 +2698,38 @@ p.watch_read_headings{
 		padding-bottom: 5px;
 	}
 
-.teaching_series {
-    padding: 50px 30px 50px 30px;
+	section.pwm_network .first_row div:nth-child(2), section.pwm_network .row div:nth-child(1) {
+    padding: 10px 15px;
 }
-.new_app_img .flex-button {
-	width: 100%;
-	margin-left: 0%;
+
+	.pwm_app {
+margin-top: -25px;
+	}
+
+	.teaching_series {
+			padding: 50px 30px 50px 30px;
+	}
+	.new_app_img .flex-button {
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	.small_sections_links ul{
+		margin-top: -30px;
+	}
+
+	.info a img {
+    margin-top: -40px;
 }
+
+	.info .ministry {
+    margin-top: -180px;
+}
+
+.visit_location li {
+	margin-left: 0px;
+}
+
 /*ABOUT US PAGE */
 	.about_story, .faith_baptism {
     padding: 30px 30px 60px 30px;
@@ -2654,8 +2739,26 @@ p.watch_read_headings{
 		font-size: 10px;
 		padding: 5px;
 	}
+	
+	.watch_read_background {
+		padding-top: 50px;
+	}
 
 
+	section.stories_section {
+		padding-top: 20px;
+}
+
+/* .stories_section .row div:nth-child(2), .stories .row div:nth-child(2), .watch_read_sections .row div:nth-child(2) {
+	padding-top: 10px !important;
+} */
+/* .watch_read_sections .row div:nth-child(2) .watch_read_cols {
+	padding-top: 200px;
+} */
+
+	section#sermons_section.about_stories {
+    padding: 0px;
+	}
 	.mission_statement_para img{
 		width:280px; 
 	}
@@ -2665,14 +2768,8 @@ p.watch_read_headings{
 		font-size: 10px;
 	}
 
-/*
-	.carousel-caption .together span{
-		font-size: 40px;
-	}
-*/
 	.bible_quote {
 		padding: 50px 30px 50px 30px;
-	/*background-position: 50% 90px;*/
 	}
 	.bible_quote p {
 		font-size: 20px
@@ -2701,7 +2798,6 @@ p.watch_read_headings{
 		font-size: 14px;
 	}
 
-
 	.beliefs ul li{
 	display: block;
 	}
@@ -2709,15 +2805,6 @@ p.watch_read_headings{
 	.beliefs_head{
 		font-size: 20px;
 	}
-/*
-	.statement_of_faith p {
-	padding-left: 20px;
-	padding-right: 20px;
-	}
-	.statement_of_faith p:nth-child(2) {
-	font-size: 26px;
-	}
-*/
 
 	.carousel-caption .power, .carousel-caption .together, .carousel-caption .prayer{
 		font-size: 30px;
@@ -2735,24 +2822,7 @@ p.watch_read_headings{
 		text-align: center;
 		padding-left: 40px;
 	}
-/*
-	form.location_form input{
-		width: 155px;
-		margin-left: -20px;
-	}
 
-
-	form.location_form{
-		margin: 0 auto; 
-		width:145%;
-	}
-
-
-
-	form.location_form button{
-	margin-left: 0px;
-}
-*/
   .carousel-caption input, .carousel-caption button {
 		padding: 12px 8px 12px 8px;
 		font-size: 16px;
@@ -2761,9 +2831,24 @@ p.watch_read_headings{
 	p.watch_read_headings{
 		font-size: 25px;
 	}
+
+	/* .top_image_setting p{
+		padding-top: 300px;
+	} */
+
+
+	section.subscribe {
+    padding: 10px 0px;
  }
 
+ .pwm_network{
+	height: 750px;
 
+}
+
+ .pwm_network .watch_photo_bg_3{
+	height: 300px;
+}
 /*COLOUR Combination
 
 http://www.color-hex.com/color-palette/5312
